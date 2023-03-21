@@ -43,13 +43,13 @@ function ProjectOne() {
                 <div class='default-container'>
                 <h2>Discovery</h2>
                 <p>The feature was driven by many calls and NPS becoming top priority for delivery. 
-                    Therefore user testing and extensive research could not be allocated in the discovery phase. I spent most of my time going through apps I frequently used that had the “retry feature” and analysed how they implemented this into their applications. 
+                    Therefore, user testing and extensive research could not be allocated in the discovery phase. I spent most of my time going through apps I frequently used that had the “retry feature” and analysed how they implemented this into their applications. 
                     Here is a snippet of competitor analysis that was done where we highlighted feasibility and how we could utilise the components in our design system to ensure a seamless experience. </p>
-                <img src={comp1} alt="comp1" style={{width: '90%'}}/>
+                <img src={comp1} alt="comp1" style={{width: '90%'}}/><br/>
                 <h2>Design iterations</h2>
                 <p>
-                    Based on the analysis I was able to identify common components companies used to communicate the feature. I decided on using a banner incorporated with dual buttons. < br/>
-                    The two actions were<b> Retry payment</b> or <b>Update card payment</b>.  To ensure both actions had equal weight a ghost button was used over a primary button. <br/>
+                    Based on the analysis, I was able to identify common components companies used to communicate the feature. I decided on using a banner incorporated with dual buttons. < br/>
+                    The two actions were<b> Retry payment</b> or <b>Update card payment</b>.  To ensure both actions had equal weight, a ghost button was used over a primary button. <br/>
                     The following images show the iterations of designs starting from having only a retry payment button to the final solution of dual buttons. 
                 </p>
                 <img src={retryiter} alt="retryiter" style={{width: '90%'}}/>
@@ -60,7 +60,7 @@ function ProjectOne() {
                 <p>
                     The final step is the handover process where I hand over the designs to the developers to implement. 
                     I believe this is a crucial step throughout the entire design process. It is essential for there to be enough detail for developers to accurately develop the designs and ensure all edge cases are to be accounted for. < br/>
-                    Therefore I tend to work closely with the developers if they have any questions and establish a layout that clearly shows the designs and the next steps/interactions.
+                    Therefore, I tend to work closely with the developers if they have any questions and establish a layout that clearly shows the designs and the next steps/interactions.
                 </p>
                 <img src={retry2} alt="retry2" style={{width: '90%'}}/>
                 </div> )}
@@ -72,6 +72,7 @@ function ProjectOne() {
                             we could utilise the components in our design system to ensure a seamless experience. 
                         </p>
                         <img src={comp1} alt="comp1" style={{width: '90%'}}/>
+                        <br/>
                     <h2>Design iterations</h2>
                         <p>
                         Based on the analysis I was able to identify common components companies used to communicate the feature. < br/>
@@ -80,7 +81,7 @@ function ProjectOne() {
                         - Dual buttons <br/><br/>
                         The following images show the iterations of designs
                         </p>
-                        <img src={retryiter} alt="retryiter" style={{width: '90%'}}/>
+                        <img src={retryiter} alt="retryiter" style={{width: '90%'}}/><br/>
                     <h2>Handover</h2>
                         <p>
                             The final step is the handover process where I hand over the designs to the developers to implement.
