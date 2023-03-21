@@ -7,3 +7,33 @@
     color: #454545;
     font-size: 1rem;
 }
+
+.ul-grid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.brandline {
+    margin-right: auto;
+    text-align: left;
+}
+
+.rectangle {
+    height: 40px;
+    width: 40px;
+    background-color: #ED9AB6;
+    margin-right: 1rem;
+}
+
+
+ul a{
+    color: #454545;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: #ED9AB6;
+    -webkit-transition: 200ms;
+}

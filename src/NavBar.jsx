@@ -6,8 +6,9 @@ const Navbar = () => {
     return (
         <>
         <nav class="nav-grid">
-            <div className='brandline'>Crystal Truong</div>
-            <ul>
+            <ul class="ul-grid"> 
+                <div class ="rectangle"></div><div class ="rectangle"></div><div class ="rectangle"></div>
+                <div className='brandline'>Crystal Truong</div>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <a href="https://www.linkedin.com/in/crystal-truong-2334a2175/" target="_blank">Linkedin</a>
