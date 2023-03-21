@@ -36,7 +36,7 @@ class LandingPage extends Component {
                 <div className='p2-description'>
                     <h1>Payment redesign</h1>
                     <p>Giving users the ability to retry payments within the portal</p>
-                    <Link to="/project2" className="p1-btn"><b>View project</b> <img src={chev} width="25" height="25"/></Link>\
+                    <Link to="/project2" className="p1-btn"><b>View project</b> <img src={chev} width="25" height="25"/></Link>
                 </div>
                 <img src={payment} alt="payment" class='img2'/>
             </div>
