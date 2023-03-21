@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './project.css';
+import paysearch from './paysearch.png';
+import payiter from './payiter.png';
+import pay from './pay.png';
+
 
 function ProjectTwo() {
     const [showContentOne, setShowContentOne] = useState(true);
@@ -8,29 +12,30 @@ function ProjectTwo() {
         return (
             <div className='proj-grid'>
                 <div class='overview-container'>
-                <h2>Retry feature</h2>
+                <h2>Payment redesign</h2>
                     <div class='col1'>
                         <h3>Overview</h3>
-                        <p>A common feature that many companies have implemented was the ability to retry payments. To reduce calls and ensure users are able to fix payments 
-                            due to insufficient funds or expired cards the retry feature was launched.  </p>
+                        <p>The current payments page lacked accessibility and usability. 
+                            There was no visibility on payments, features to delete/update payments and mobile-friendly views. 
+                            Therefore, a redesign was needed to allow users to make important changes to their payments easily.  </p>
                     </div>
                     <div class='col2'>
                          <div class="objective-container">
                             <h3>Objective</h3>
-                            <p>Allow users to retry payment to reduce calls and time for both call agents and customers</p>
+                            <p>Allow users to find and use features to manage their payments. </p>
                         </div>
                         <div class="timeline-container">
                             <h3>Timeline</h3>
-                            <p>September 2022 - November 2022</p>
+                            <p>April 2022 - June 2022</p>
                         </div>
                     </div>
                 </div>
                 <div class='btn-container' >
-                <button style={{borderStyle: 'hidden'}} onClick={() => {
+                <button onClick={() => {
                     setShowContentOne(true);
                     setShowContentTwo(false);
                 }}>Default</button>
-                <button style={{borderStyle: 'hidden'}} onClick={() => {
+                <button onClick={() => {
                     setShowContentOne(false);
                     setShowContentTwo(true);
                 }}>TDLR</button>
@@ -55,6 +60,7 @@ function ProjectTwo() {
                     Starting with wireframes allowed me to tackle all cases and figure out the easiest way for a user to perform each action. < br/> < br/>
                     The following is a snippet of discovery that was done.  
                 </p>
+                <img src={paysearch} alt="paysearch" style={{width: '90%'}}/>
                 <h2>Design iterations</h2>
                 <p>
                 Based on the discovery I removed the use of “breadcrumbs” and opted with separating by pages to allow users to focus on one “job” at a time. < br/>
@@ -62,6 +68,7 @@ function ProjectTwo() {
                 Payments handled the core features i.e. updating or deleting payment methods and view of payment schedule. < br/>
                 The following is the iterations of the payment pages in the new design system. < br/> 
                 </p>
+                <img src={payiter} alt="payiter" style={{width: '90%'}}/>
                 <h2>Handover</h2>
                 <p>
                 The final step was handing over the designs to the developers. In this stage I ensured that it was explicit on how the interactions occurred. 
@@ -70,6 +77,7 @@ function ProjectTwo() {
                 here the developers went through the pages and I checked if there was anything missing or irregular. 
                 During this meeting the developers would also go through accessibility requirements to ensure tabbing has been done properly. < br/>
                 </p>
+                <img src={pay} alt="pay" style={{width: '90%'}}/>
                 </div> )}
 
                 {showContentTwo && (
@@ -88,6 +96,7 @@ function ProjectTwo() {
                             </p>
                         From here I was able to start competitor analysis and creating wireframes to address all cases a user may encounter 
                         </p>
+                        <img src={paysearch} alt="paysearch" style={{width: '90%'}}/>
                 <h2>Design iterations</h2>
                 <p>
                 The big changes made were: < br/>
@@ -96,10 +105,12 @@ function ProjectTwo() {
                 -Addition of delete and update feature <br/><br/>
                 The following images show the iterations of designs
                 </p>
+                <img src={payiter} alt="payiter" style={{width: '90%'}}/>
                 <h2>Handover</h2>
                 <p>
                     The final step is the handover process where I hand over the designs to the developers to implement.
                 </p>
+                <img src={pay} alt="pay" style={{width: '90%'}}/>
                 </div>)}
             </div>
         )
