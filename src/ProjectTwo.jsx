@@ -38,36 +38,62 @@ function ProjectTwo() {
                 {showContentOne && (
                 <div class='default-container'>
                 <h2>Discovery</h2>
-                <p>The feature was driven by many calls and NPS becoming top priority for delivery. 
-                    Therefore user testing and extensive research could not be allocated in the discovery phase. I spent most of my time going through apps I frequently used that had the “retry feature” and analysed how they implemented this into their applications. 
-                    Here is a snippet of competitor analysis that was done where we highlighted feasibility and how we could utilise the components in our design system to ensure a seamless experience. </p>
+                <p>Before I was placed on the project a portal redesign user testing was done. From the testing many participants voiced concern for the lack of features available in the payments page, 
+                    it was also difficult for users to identify if payments were due and where their payment history was located. < br/>
+                    The next steps were to understand the core problems with the current state and what we wanted to achieve with the uplifting of the page. < br/>< br/>
+                    <b>Core problems</b>< br/>
+                    <p style={{textIndent:'50px'}}>
+                        1. Lack of accessibility - not meeting WCAG requirements
+                    </p>
+                    <p style={{textIndent:'50px'}}>
+                        2. No option for users to delete or clearly update card payments or bank accounts
+                    </p>
+                    <p style={{textIndent:'50px'}}>
+                        3. Inaccessible for mobile users
+                    </p>
+                    Once the problems were identified I started competitor analysis and creating wireframes. 
+                    Starting with wireframes allowed me to tackle all cases and figure out the easiest way for a user to perform each action. < br/> < br/>
+                    The following is a snippet of discovery that was done.  
+                </p>
                 <h2>Design iterations</h2>
                 <p>
-                    Based on the analysis I was able to identify common components companies used to communicate the feature. I decided on using a banner incorporated with dual buttons. < br/>
-                    The two actions were<b> Retry payment</b> or <b>Update card payment</b>.  To ensure both actions had equal weight a ghost button was used over a primary button. <br/>
-                    The following images show the iterations of designs starting from having only a retry payment button to the final solution of dual buttons. 
-                </p>
-                <p>
-                    The designs are then reviewed by the business analyst, and product owner, developers, testers and the head of digital for approvals. During these discussions we go through tech feasibility, requirements (business, legal and security) and discuss any further behaviours/functionality that needed to be implemented.
+                Based on the discovery I removed the use of “breadcrumbs” and opted with separating by pages to allow users to focus on one “job” at a time. < br/>
+                The page was split into 3 i.e. payments, payment history and statements. < br/>
+                Payments handled the core features i.e. updating or deleting payment methods and view of payment schedule. < br/>
+                The following is the iterations of the payment pages in the new design system. < br/> 
                 </p>
                 <h2>Handover</h2>
                 <p>
-                    The final step is the handover process where I hand over the designs to the developers to implement. 
-                    I believe this is a crucial step throughout the entire design process. It is essential for there to be enough detail for developers to accurately develop the designs and ensure all edge cases are to be accounted for. < br/>
-                    Therefore I tend to work closely with the developers if they have any questions and establish a layout that clearly shows the designs and the next steps/interactions.
+                The final step was handing over the designs to the developers. In this stage I ensured that it was explicit on how the interactions occurred. 
+                I created a clear outline of the flow highlighting any areas that had specific behaviours or requirements that needed to be paid close attention to.  <br/><br/>
+                An important part of the processes was the walkthroughs after the developers have completed developing, 
+                here the developers went through the pages and I checked if there was anything missing or irregular. 
+                During this meeting the developers would also go through accessibility requirements to ensure tabbing has been done properly. < br/>
                 </p>
                 </div> )}
 
                 {showContentTwo && (
                 <div class='tdlr-container'>
                      <h2>Discovery</h2>
-                        <p>Competitor analysis was done where we highlighted feasibility and how we could utilise the components in our design system to ensure a seamless experience. </p>
+                        <p>
+                        The <b>3 core problems</b> identified were:
+                            <p style={{textIndent:'50px'}}>
+                                1. Lack of accessibility - not meeting WCAG requirements
+                            </p>
+                            <p style={{textIndent:'50px'}}>
+                                2. No option for users to delete or clearly update card payments or bank accounts
+                            </p>
+                            <p style={{textIndent:'50px'}}>
+                                3. Inaccessible for mobile users
+                            </p>
+                        From here I was able to start competitor analysis and creating wireframes to address all cases a user may encounter 
+                        </p>
                 <h2>Design iterations</h2>
                 <p>
-                Based on the analysis I was able to identify common components companies used to communicate the feature. < br/>
-                The key components used: <br/><br/>
-                - A banner <br/>
-                - Dual buttons <br/><br/>
+                The big changes made were: < br/>
+                - Remove of breadcrumbs instead the one page was split into 3 i.e. payments, payment history and statements < br/>
+                - Uplifted with the new design system < br/>
+                -Addition of delete and update feature <br/><br/>
                 The following images show the iterations of designs
                 </p>
                 <h2>Handover</h2>

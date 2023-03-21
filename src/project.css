@@ -72,9 +72,8 @@
     border-radius: 50%;
 	display: inline-block;
 	vertical-align: middle;
-	border-style: solid;
-	border-radius: 2rem;
-	border-style: hidden;
+	border: 1px solid #ed9ab6;;    
+	border-radius: 3rem;
   }
   
 
@@ -83,8 +82,11 @@
     color: white;
   }
 
-  .btn-container button:active{
-    border-radius: 2rem;
-    border: 0.01rem solid #ed9ab6;
+  .btn-container button:focus{
+    background-color: #ed9ab6;
+    color: white;
   }
+
+
+
 

@@ -26,11 +26,11 @@ function ProjectOne() {
                     </div>
                 </div>
                 <div class='btn-container' >
-                <button style={{borderStyle: 'hidden'}} onClick={() => {
+                <button onClick={() => {
                     setShowContentOne(true);
                     setShowContentTwo(false);
                 }}>Default</button>
-                <button style={{borderStyle: 'hidden'}} onClick={() => {
+                <button onClick={() => {
                     setShowContentOne(false);
                     setShowContentTwo(true);
                 }}>TDLR</button>
