@@ -1,0 +1,18 @@
+
+.container {
+    box-sizing: border-box;
+    position: absolute;
+    padding: 3rem;
+    width: 500px;
+    left: 200px;
+    top: 150px;
+    border-radius: 1rem;
+    border: 0.1rem solid #ED9AB6;
+}
+
+.container p {
+    text-align: left;
+    font-family: "DM Sans";
+    font-size: 16px;
+
+}

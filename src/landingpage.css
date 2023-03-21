@@ -46,3 +46,19 @@
     display: flex;
     align-items: center;
   }
+
+  .img1 {
+    width: 80%;
+    margin-left: auto;
+  }
+  
+
+  .img2 {
+    width: 80%;
+    margin-right: auto;
+  }
+  
+  .p2-description {
+    margin-left: auto;
+  }
+  
