@@ -1,0 +1,90 @@
+.proj-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    place-items: center;
+  }
+  
+  .overview-container {
+    color: #454545;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1200px;
+    height: auto;
+    border-radius: 1rem;
+    border: 0.1rem solid #ed9ab6;
+    column-gap: 2rem;
+  }
+  
+  .col1 {
+    grid-column: 1/2;
+  }
+  
+  .col2 {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .col2 h3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col2 h3::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #ed9ab6;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+  
+  .default-container {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+  }
+
+  .tdlr-container {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .btn-container button {
+    background-color: white;
+    font-size: 16px;
+    padding: 1rem;
+    width: 150px;
+    font-family: 'DM Sans';
+    margin: 0 10px;
+    border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	border-style: solid;
+	border-radius: 2rem;
+	border-style: hidden;
+  }
+  
+
+  .btn-container button:hover{
+    background-color: #ed9ab6;
+    color: white;
+  }
+
+  .btn-container button:active{
+    border-radius: 2rem;
+    border: 0.01rem solid #ed9ab6;
+  }
+
