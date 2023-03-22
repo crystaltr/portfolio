@@ -21,11 +21,12 @@ function ProjectOne() {
                     <div class='col2'>
                          <div class="objective-container">
                             <h3>Objective</h3>
-                            <p>Allow users to retry payment to reduce calls and time for both call agents and customers</p>
+                            <p style={{textIndent:'40px'}}>Allow users to retry payment to reduce calls and</p>
+                            <p style={{textIndent: '40px', lineHeight:'0'}}>time for both call agents and customers</p>
                         </div>
                         <div class="timeline-container">
                             <h3>Timeline</h3>
-                            <p>September 2022 - November 2022</p>
+                            <p style={{textIndent:'40px'}}>September 2022 - November 2022</p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +38,7 @@ function ProjectOne() {
                 <button onClick={() => {
                     setShowContentOne(false);
                     setShowContentTwo(true);
-                }}>TDLR</button>
+                }}>TLDR</button>
                 </div>
                 {showContentOne && (
                 <div class='default-container'>

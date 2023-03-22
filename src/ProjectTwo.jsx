@@ -22,11 +22,11 @@ function ProjectTwo() {
                     <div class='col2'>
                          <div class="objective-container">
                             <h3>Objective</h3>
-                            <p>Allow users to find and use features to manage their payments. </p>
+                            <p style={{textIndent:'40px'}}>Allow users to find and use features to manage their payments. </p>
                         </div>
                         <div class="timeline-container">
                             <h3>Timeline</h3>
-                            <p>April 2022 - June 2022</p>
+                            <p style={{textIndent:'40px'}}>April 2022 - June 2022</p>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function ProjectTwo() {
                 <button onClick={() => {
                     setShowContentOne(false);
                     setShowContentTwo(true);
-                }}>TDLR</button>
+                }}>TLDR</button>
                 </div>
                 {showContentOne && (
                 <div class='default-container'>
