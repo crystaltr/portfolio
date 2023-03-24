@@ -1,11 +1,18 @@
 
+.t-section {
+  height: 550px;
+  padding: 2rem 2rem;
+}
 .title h1 {
     display: grid;
     place-items: center;
     font-family: "Archivo Black";
+    line-height: 1.5;
     text-align: left;
     color: #454545;
     font-size: 64px;
+    padding: 2rem;
+    padding-bottom: 5rem;
   }
 
 
@@ -13,8 +20,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
+    padding: 2rem;
   
   }
   
@@ -38,14 +44,49 @@
     margin-right: auto;
   }
   
-  .p1-btn {
-    color: #DA627D;
+  /* .p1-btn {
+    color: #ED9AB6;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     display: flex;
     align-items: center;
-  }
+  } */
+
+/* CSS */
+.p1-btn {
+  background-color: #fff7fa;
+  border-radius: 3px;
+  border: 1px solid #DA627D;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #DA627D;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.p1-btn:hover,
+.p1-btn:focus {
+  background-color: #f7e4ea;
+  color: #DA627D;
+}
+
+.p1-btn:active {
+  background-color: #f7e4ea;
+  box-shadow: none;
+  color: #DA627D
+}
+
 
   .img1 {
     width: 80%;
