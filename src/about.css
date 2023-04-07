@@ -4,16 +4,12 @@
     grid-auto-flow: column;
     justify-content: center;
     align-content: center;
-    gap: 5rem;
-    padding-top: 4rem;
+    gap: 8rem;
+    padding: 4rem;
 }
 
 .a-col1 {
-    box-sizing: border-box;
-    padding: 3rem;
     width: 500px;
-    border-radius: 1rem;
-    border: 0.1rem solid #ED9AB6;
 }
 
 .a-col1 p {
@@ -31,9 +27,9 @@
 .a-col2 h3::before {
     content: "";
     display: inline-block;
-    width: 25px;
-    height: 25px;
     background-color: #ed9ab6;
+    width: 20px;
+    height: 20px;
     margin-right: 1rem;
     vertical-align: middle;
   }

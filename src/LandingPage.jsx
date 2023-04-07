@@ -10,18 +10,14 @@ class LandingPage extends Component {
         return (
             <>
             <div class='t-section'>
-                <div className='title'>
-                    <h1>Intentional designs for < br/> everyday use</h1>
-                </div>
-                <div class="rect-container">
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
-                    <div class="rect-item"></div>
+                <h1>Intentional designs for < br/> everyday use</h1>
+                <div class="cube">
+                    <div class="face front"></div>
+                    <div class="face back"></div>
+                    <div class="face left"></div>
+                    <div class="face right"></div>
+                    <div class="face top"></div>
+                    <div class="face bottom"></div>
                 </div>
             </div>
             <div className='p1-grid'>
