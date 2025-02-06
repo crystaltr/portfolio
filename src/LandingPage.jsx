@@ -23,19 +23,21 @@ class LandingPage extends Component {
             <div className='p1-grid'>
                 <img src={payment} alt="payment" class='img1'/>
                 <div className='p1-description'>
-                <h1>Payment redesign</h1>
-                <p>A redesign of the payments pages to allow users to intuitively update <br/> and delete payment methods.</p>
-                <Link to="/project2" className="p1-btn">View project</Link>
+                <h1>Car match</h1>
+                <p>Car Match is an all-in-one platform that simplifies the car buying process by allowing users <br/> to research vehicles, connect with 
+                    trusted dealers, and access RACV-approved information and reviews. <br/>
+                    The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car <br/> with confidence and peace of mind.</p>
+                <Link to="/project2" className="p1-btn">Check it </Link>
                 </div>
             </div>
 
             <div className='p1-grid'>
                 <div className='p2-description'>
-                    <h1>Retry feature</h1>
-                    <p>Giving users the ability to retry payments within the portal.</p>
+                    <h1>Payment redesign</h1>
+                    <p>A redesign of the payments pages to allow users to intuitively update <br/> and delete payment methods.</p>
                     <Link to="/project1" className="p1-btn">View project</Link>
                 </div>
-                <img src={retry} alt="retry" class='img2'/>
+                <img src={payment} alt="retry" class='img2'/>
             </div>
            
             </>
