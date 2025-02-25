@@ -8,7 +8,6 @@ import pay from './pay.png';
 function ProjectTwo() {
     const [showContentOne, setShowContentOne] = useState(true);
     const [showContentTwo, setShowContentTwo] = useState(false);
-     {
         return (
             <div className='proj-grid'>
                 <div class='overview-container'>
@@ -116,6 +115,5 @@ function ProjectTwo() {
             </div>
         )
     }
-}
 
 export default ProjectTwo;

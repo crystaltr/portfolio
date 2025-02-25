@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
 .App {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr;
-  font-family: 'DM Sans';
+  font-family: 'JetBrains Mono', monospace;
   color: #454545;
 }
 

@@ -8,7 +8,6 @@ import retry2 from './retry2.png';
 function ProjectOne() {
     const [showContentOne, setShowContentOne] = useState(true);
     const [showContentTwo, setShowContentTwo] = useState(false);
-     {
         return (
             <div className='proj-grid'>
                 <div class='overview-container'>
@@ -92,6 +91,5 @@ function ProjectOne() {
             </div>
         )
     }
-}
 
 export default ProjectOne;

@@ -3,7 +3,6 @@
     grid-template-columns: 1fr;
     padding: 3rem;
     place-items: center;
-    font-family: 'DM Sans';
   }
   
   .overview-container {
