@@ -35,7 +35,7 @@ class LandingPage extends Component {
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 
                         finding and managing live events.
                         </p>< br/>< br/>< br/>< br/>< br/>< br/>
-                        <a href="#" className="project-link">Check it out ›</a>
+                        <a href="#" className="p1-btn">Check it out ›</a>
                     </div>
                     <img src={placeholder} alt="placeholder" class='img1'/>
             </section>
@@ -48,7 +48,7 @@ class LandingPage extends Component {
                         The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car 
                         with confidence and peace of mind.
                         </p>< br/>< br/>< br/>< br/>
-                        <a href="#" className="project-link">Check it out ›</a>
+                        <a href="#" className="p1-btn">Check it out ›</a>
                     </div>
                     <img src={placeholder} alt="placeholder" class='img1'/>
             </section>

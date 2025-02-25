@@ -1,6 +1,6 @@
 
 .landing-container {
-  width: 80%; /* Adjust width as needed */
+  width: 50%; /* Adjust width as needed */
   max-width: 1200px; /* Keeps it responsive */
   margin: 0 auto; /* Centers the content */
 }
