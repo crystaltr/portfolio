@@ -1,6 +1,6 @@
 
 .landing-container {
-  width: 50%; /* Adjust width as needed */
+  width: 80%; /* Adjust width as needed */
   max-width: 1200px; /* Keeps it responsive */
   margin: 0 auto; /* Centers the content */
 }
@@ -23,13 +23,14 @@
   justify-content: space-between;
   padding: 60px 0;
   gap: 1rem;
-
 }
 
+
 .cube-wrapper {
-  width: 32px;
-  height: 32px;
-  position: relative;
+  flex-shrink: 0; /* Prevents shrinking */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cube {
@@ -105,11 +106,16 @@
   font-size: 14px;
 }
 
+
 .hero-section {
-  flex: 1;
-  margin-left: 50px;
   font-family: 'Jetbrains Mono';
+  display: flex;
+  align-items: center; /* Aligns the cube & text vertically */
+  justify-content: flex-start; /* Keeps content aligned to the left */
+  gap: 3rem; /* Ensures space between cube & text */
+  width: 100%;
 }
+
 
 .hero-section h1 {
   font-size: 24px;

@@ -22,8 +22,8 @@ class LandingPage extends Component {
                     </div>
                     {/*Introduction section*/}
                     <div className='hero-text'>
-                    <h2>Hi, I'm Crystal< br/></h2>
-                        <p>I’m a UX designer who strives to work on products that improve peoples everyday life. Below is some live projects 
+                    <h2>Hi! I'm Crystal,< br/></h2>
+                        <p>I’m a UX designer based in Melbourne, Australia who strives to work on products that improve peoples everyday life. Below is some live projects 
                             I’ve worked on and personal projects I’ve been working on!</p>
                     </div>       
                 </section>
@@ -63,7 +63,12 @@ class LandingPage extends Component {
                     </div>
                     <img src={placeholder} alt="placeholder" class='img1'/>
             </section>
+            <hr
+            style={{ borderTop: "0px solid lightgrey" }}
+        ></hr><p style={{fontSize: "12px"}}>© 2025 Crystal Truong </p>
             </div>
+            
+
 
            {/*
             <div className='p1-grid'>
