@@ -15,7 +15,7 @@ function ProjectOne() {
             <section className="case-study">
             {/* Title Section */}
             <div className="case-study-title">
-              Enhancing payment experience in an insurance customer portal
+            Streamlining vehicle updates for Motor Insurance
             </div>
       
             {/* Image Placeholder */}
