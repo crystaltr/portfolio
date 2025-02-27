@@ -31,40 +31,40 @@ class LandingPage extends Component {
                 </section>
                 <section className="project-section">
                     <div className="project-text">
-                        <h2>Whatslively</h2>
+                    <img src={wl} alt="wl" class='img1'/>
+                    <br/><br/><h2>Whatslively</h2>
                         <p>
                         Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. 
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 
                         finding and managing live events.
-                        </p>< br/>< br/>< br/>< br/>< br/>< br/>
+                        </p>
                         <a href="#" className="p1-btn">Read more ›</a>
                     </div>
-                    <img src={wl} alt="wl" class='img1'/>
             </section>
             <section className="project-section">
                     <div className="project-text">
+                        <img src={placeholder} alt="placeholder" class='img1'/>
                         <h2>Car match</h2>
                         <p>
                         Car Match is an all-in-one platform that simplifies the car buying process by allowing users
                         to research vehicles, connect with trusted dealers, and access RACV-approved information and reviews. 
                         The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car 
                         with confidence and peace of mind.
-                        </p>< br/>< br/>< br/>< br/>
+                        </p>
                         <a href="#" className="p1-btn">Check it out ›</a>
                     </div>
-                    <img src={placeholder} alt="placeholder" class='img1'/>
             </section>
             <section className="project-section">
                     <div className="project-text">
+                            <img src={era} alt="era" class='img1'/>
                         <h2>Streamlining vehicle updates for Motor Insurance</h2>
                         <p>
                         Previously, updating a vehicle in a motor insurance policy was unclear and required support. 
                         This project introduced a simple, self-service feature, allowing users to replace or edit their
                          insured vehicle directly in the portal, ensuring a smoother and more efficient experience.
-                        </p>< br/>< br/>< br/>< br/>< br/>< br/>
+                        </p>
                         <Link to="/project2" className="p1-btn">Read more ›</Link>
                     </div>
-                    <img src={era} alt="era" class='img1'/>
             </section>
             <hr
             style={{ borderTop: "0px solid lightgrey" }}
