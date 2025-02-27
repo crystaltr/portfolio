@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.af75228e.css",
-    "main.js": "/portfolio/static/js/main.d2949025.js",
+    "main.css": "/portfolio/static/css/main.4e04a2e7.css",
+    "main.js": "/portfolio/static/js/main.136c2300.js",
+    "static/media/ERA graphic.png": "/portfolio/static/media/ERA graphic.ba592b51d0282b323726.png",
+    "static/media/lpwl.png": "/portfolio/static/media/lpwl.b927ff262dd100bf072a.png",
     "static/media/retryiter.png": "/portfolio/static/media/retryiter.82d32fbbd6d779980de6.png",
     "static/media/payiter.png": "/portfolio/static/media/payiter.b049dcc1fffb618e095e.png",
     "static/media/retry2.png": "/portfolio/static/media/retry2.dc4e240813534b9cc74a.png",
@@ -9,11 +11,11 @@
     "static/media/paysearch.png": "/portfolio/static/media/paysearch.e7fc03378eead1c67aa4.png",
     "static/media/pay.png": "/portfolio/static/media/pay.f4195ca26fa025b118b3.png",
     "index.html": "/portfolio/index.html",
-    "main.af75228e.css.map": "/portfolio/static/css/main.af75228e.css.map",
-    "main.d2949025.js.map": "/portfolio/static/js/main.d2949025.js.map"
+    "main.4e04a2e7.css.map": "/portfolio/static/css/main.4e04a2e7.css.map",
+    "main.136c2300.js.map": "/portfolio/static/js/main.136c2300.js.map"
   },
   "entrypoints": [
-    "static/css/main.af75228e.css",
-    "static/js/main.d2949025.js"
+    "static/css/main.4e04a2e7.css",
+    "static/js/main.136c2300.js"
   ]
 }
