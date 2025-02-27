@@ -36,11 +36,12 @@ class LandingPage extends Component {
                         <p>
                         Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. 
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 
-                        finding and managing live events.
+                        discovering live events in Australia.
                         </p>
                         <a href="#" className="p1-btn">Read more ›</a>
                     </div>
             </section>
+            {/*Car match
             <section className="project-section">
                     <div className="project-text">
                         <img src={placeholder} alt="placeholder" class='img1'/>
@@ -53,7 +54,7 @@ class LandingPage extends Component {
                         </p>
                         <a href="#" className="p1-btn">Check it out ›</a>
                     </div>
-            </section>
+        </section>*/}
             <section className="project-section">
                     <div className="project-text">
                             <img src={era} alt="era" class='img1'/>
@@ -63,7 +64,7 @@ class LandingPage extends Component {
                         This project introduced a simple, self-service feature, allowing users to replace or edit their
                          insured vehicle directly in the portal, ensuring a smoother and more efficient experience.
                         </p>
-                        <Link to="/project2" className="p1-btn">Read more ›</Link>
+                        <Link to="/project1" className="p1-btn">Read more ›</Link>
                     </div>
             </section>
             <hr

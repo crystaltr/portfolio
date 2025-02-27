@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './project.css';
+import era from './ERA graphic.png'
 import comp1 from './comp1.png';
 import retryiter from './retryiter.png';
 import retry2 from './retry2.png';
@@ -8,23 +9,25 @@ import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
 
 
 function ProjectOne() {
-    const [showContentOne, setShowContentOne] = useState(true);
-    const [showContentTwo, setShowContentTwo] = useState(false);
+    {/* tldr const [showContentOne, setShowContentOne] = useState(true);
+const [showContentTwo, setShowContentTwo] = useState(false); */}
         return (
             <>
             <section className="case-study">
+                
+            {/* Image Placeholder */}
+            <img src={era} alt="era" class='case-study-image'/>
             {/* Title Section */}
             <div className="case-study-title">
             Streamlining vehicle updates for Motor Insurance
             </div>
       
-            {/* Image Placeholder */}
-            <div className="case-study-image"></div>
       
             {/* Description */}
             <p className="case-study-description">
-              Tasked with identifying pain points in the accessibility, usability, and
-              key features like payment visibility, editing, and mobile support.
+              Driven by NPS data and to support reduction of calls in customer support, I focused on the essential features
+              needed for customers to easily update their motor policy. The teams main goal was ensuring the experience was seamless 
+              with the existing state and met the necessary accessibility and usability requirements.
             </p>
       
             {/* Improvement Section */}
@@ -39,11 +42,9 @@ function ProjectOne() {
             style={{ borderTop: "0px solid lightgrey" }}
         ></hr>
                 <p>
-                  As a leading insurance company, these key features needed
-                  improvement to ensure customers could manage their payments with
-                  ease. The key issues with the payment experience were the lack of
-                  payment history visibility, no option to delete or update payment
-                  methods, and limited visibility of upcoming due payments.
+                  As a leading insurance company, these key features were needed to ensure
+                  a better experiene for customers to ensure they can freely update or replace their
+                  vehicle in the motor insurance policy online instead of calling up causing increase in traffic
                 </p>
               </div>
               <div className="table-column solution">
@@ -52,16 +53,21 @@ function ProjectOne() {
             style={{ borderTop: "0px solid lightgrey" }}
         ></hr>
                 <p>
-                  Our main focus was to separate the payment experience into two core
-                  pages: Payment History and Direct Debit. Payment History would
-                  provide a clear record of all past payments, including the date,
-                  payment type, and amount. Direct Debit would allow users to manage
-                  their saved payment methods by deleting or updating them and offer a
-                  clear view of their upcoming payment schedule.
+                Our main focus was to enable customers to easily edit or update their vehicle in their motor policy.
+                These features reduced customer support traffic and minimized frustration by eliminating the need to call and wait on hold.
                 </p>
               </div>
-            </div>
-          </section> 
+            </div>< br/><br/>
+            <section className='design-section'>
+                <div className='design-text'>
+                <h2>Design process</h2>
+                <h3>Discovery</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </section>
+          </section>
+          {/* 
             <div className='proj-grid'>
                 <div class='btn-container' >
                 <button onClick={() => {
@@ -121,9 +127,9 @@ function ProjectOne() {
                             The final step is the handover process where I hand over the designs to the developers to implement.
                         </p>
                         <img src={retry2} alt="retry2" style={{width: '90%'}}/>
-                </div>)}
+                </div>)}</div>*/}
                 <CaseStudyCards />
-            </div>
+            
             </>
         )
     }
