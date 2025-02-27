@@ -31,7 +31,7 @@ const [showContentTwo, setShowContentTwo] = useState(false); */}
             </p>
       
             {/* Improvement Section */}
-            <h2 className="case-study-heading">How did we improve the payment experience?</h2>
+            <h2 className="case-study-heading">How did we improve the experience?</h2>
       
             <div className="case-study-table">
                 
@@ -62,8 +62,63 @@ const [showContentTwo, setShowContentTwo] = useState(false); */}
                 <div className='design-text'>
                 <h2>Design process</h2>
                 <h3>Discovery</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>
+                    The project kicked off with connecting with the key stakeholders: The motor insurance subject matter specialist
+                    Product owner, Tech specialist, Devs and Lead designer. < br/><br/>
+                    In this meeting we identify what are the key features that are needed and what is feasible for the projected timeline of delivery.
+                    After identifying all the key requirements we were able to start on breaking down the current work flow and start including the ability to 
+                    edit and update the vehicle in the policy
+                    
+                    A competitor analysis was done analysing key competitors AAMI, iSelect, Budget direct, Woolworths and Allianz. From here I was able to identify inline editing was
+                    the most suitable solution to ensure a streamlined experience in comparison to taking the customer to a new page or a modal appearing on screen. 
+                </p>
+
+                <h3>High fidelity designs</h3>
+                add prototype gif 
+                <p>
+                    Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
+                    their vehicle which resulted in a new policy. <br/>
+                    The key components I took into account was <br/><br/>
+
+                    <b>A seamless experience</b> <br/>
+                    By having inline editing this makes it easier for the customer to identify which section of the policy they are amending, ensuring there is no confusion with where
+                    they are the flow. <br/><br/>
+
+                    <b>Differentiating between 'Edit' and 'Replace'</b><br/>
+                    Working with the copywrite team we wanted to make it clear what options the customer had when they updated their motor policy. We added a description in the modal
+                    providing customers a clear description of what they can do. <br/><br/>
+
+                    <b>Compatibility in mobile</b><br/>
+                    Our digital metrics state that 70% of customers log into the customer portal on their mobile device, therefore it was essential that the flow stayed consistent and
+                    easy to view in mobile screens. 
+
+                    These designs are reviewed and iterated after multiple design reviews with devs, project owner and business analyst and finally with the head of design to ensure
+                    the designs are in line with the overall digital experience.
+                </p>
+
+                <h3>Handover</h3>
+                <p>
+                    After going through design approvals I start setting up the handover file. The key aspects of the handover is links to the relevant JIRA ticket, MIRO board and 
+                    confluence page. Then I would have three breakpoints: Desktop, tablet and mobile views, each breakpoint showing the flow in which a customer would edit or replace 
+                    their vehicle. <br/><br/>
+
+                    Image goes here <br/><br/>
+
+                    In some cases I would set up a "State" section, this would include any error states, edge cases or specific requirements we would need to catch that is
+                    not included in the existing design system documentation. <br/><br/>
+
+                    Image of state section <br/><br/>
+
+                    After the handover documentation is complete I set up a meeting with the dev and testers to walkthrough the flow to catch any further questions or edge cases
+                    that we may have missed in previous meetings. Once this walkthrough is done a santity check is done with the devs to ensure the designs translated accurately 
+                    onto the live website. 
+
+                <h3>Outcome</h3>
+                <p>
+                    6 months after the rollout of the amendment feature <b>19,027 updates</b> were made by customers which has reduced the need to call the customer support team 
+                </p>
+                    
+                </p>
                 </div>
             </section>
           </section>
