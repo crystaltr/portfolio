@@ -3,32 +3,66 @@ import './project.css';
 import comp1 from './comp1.png';
 import retryiter from './retryiter.png';
 import retry2 from './retry2.png';
+import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
+
 
 
 function ProjectOne() {
     const [showContentOne, setShowContentOne] = useState(true);
     const [showContentTwo, setShowContentTwo] = useState(false);
         return (
+            <>
+            <section className="case-study">
+            {/* Title Section */}
+            <div className="case-study-title">
+              Enhancing payment experience in an insurance customer portal
+            </div>
+      
+            {/* Image Placeholder */}
+            <div className="case-study-image"></div>
+      
+            {/* Description */}
+            <p className="case-study-description">
+              Tasked with identifying pain points in the accessibility, usability, and
+              key features like payment visibility, editing, and mobile support.
+            </p>
+      
+            {/* Improvement Section */}
+            <h2 className="case-study-heading">How did we improve the payment experience?</h2>
+      
+            <div className="case-study-table">
+                
+              <div className="table-column problem">
+                
+                <h3>Problem</h3>
+                <hr
+            style={{ borderTop: "0px solid lightgrey" }}
+        ></hr>
+                <p>
+                  As a leading insurance company, these key features needed
+                  improvement to ensure customers could manage their payments with
+                  ease. The key issues with the payment experience were the lack of
+                  payment history visibility, no option to delete or update payment
+                  methods, and limited visibility of upcoming due payments.
+                </p>
+              </div>
+              <div className="table-column solution">
+                <h3>Solution</h3>
+                <hr
+            style={{ borderTop: "0px solid lightgrey" }}
+        ></hr>
+                <p>
+                  Our main focus was to separate the payment experience into two core
+                  pages: Payment History and Direct Debit. Payment History would
+                  provide a clear record of all past payments, including the date,
+                  payment type, and amount. Direct Debit would allow users to manage
+                  their saved payment methods by deleting or updating them and offer a
+                  clear view of their upcoming payment schedule.
+                </p>
+              </div>
+            </div>
+          </section> 
             <div className='proj-grid'>
-                <div class='overview-container'>
-                <h2>Retry feature</h2>
-                    <div class='col1'>
-                        <h3>Overview</h3>
-                        <p>A common feature that many companies have implemented was the ability to retry payments. To reduce calls and ensure users are able to fix payments 
-                            due to insufficient funds or expired cards the retry feature was launched.  </p>
-                    </div>
-                    <div class='col2'>
-                         <div class="objective-container">
-                            <h3>Objective</h3>
-                            <p style={{textIndent:'40px'}}>Allow users to retry payment to reduce calls and</p>
-                            <p style={{textIndent: '40px', lineHeight:'0'}}>time for both call agents and customers</p>
-                        </div>
-                        <div class="timeline-container">
-                            <h3>Timeline</h3>
-                            <p style={{textIndent:'40px'}}>September 2022 - November 2022</p>
-                        </div>
-                    </div>
-                </div>
                 <div class='btn-container' >
                 <button onClick={() => {
                     setShowContentOne(true);
@@ -88,7 +122,9 @@ function ProjectOne() {
                         </p>
                         <img src={retry2} alt="retry2" style={{width: '90%'}}/>
                 </div>)}
+                <CaseStudyCards />
             </div>
+            </>
         )
     }
 

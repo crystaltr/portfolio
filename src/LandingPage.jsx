@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './landingpage.css';
 import { Link } from 'react-router-dom';
 import placeholder from './placeholder.png';
+import wl from './lpwl.png';
+import era from './ERA graphic.png'
 
 
 class LandingPage extends Component {
@@ -23,7 +25,7 @@ class LandingPage extends Component {
                     {/*Introduction section*/}
                     <div className='hero-text'>
                     <h2>Hi! I'm Crystal,< br/></h2>
-                        <p>I’m a UX designer based in Melbourne, Australia who strives to work on products that improve peoples everyday life. Below is some live projects 
+                        <p>I’m a UX designer based in Melbourne, Australia who strives to work on products that improve peoples everyday life. Below are some live projects 
                             I’ve worked on and personal projects I’ve been working on!</p>
                     </div>       
                 </section>
@@ -35,9 +37,9 @@ class LandingPage extends Component {
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 
                         finding and managing live events.
                         </p>< br/>< br/>< br/>< br/>< br/>< br/>
-                        <a href="#" className="p1-btn">Check it out ›</a>
+                        <a href="#" className="p1-btn">Read more ›</a>
                     </div>
-                    <img src={placeholder} alt="placeholder" class='img1'/>
+                    <img src={wl} alt="wl" class='img1'/>
             </section>
             <section className="project-section">
                     <div className="project-text">
@@ -54,14 +56,15 @@ class LandingPage extends Component {
             </section>
             <section className="project-section">
                     <div className="project-text">
-                        <h2>Payment customer portal redesign</h2>
+                        <h2>Streamlining vehicle updates for Motor Insurance</h2>
                         <p>
-                        A redesign of the payments pages to allow users to intuitively update <br/> 
-                        and delete payment methods.
+                        Previously, updating a vehicle in a motor insurance policy was unclear and required support. 
+                        This project introduced a simple, self-service feature, allowing users to replace or edit their
+                         insured vehicle directly in the portal, ensuring a smoother and more efficient experience.
                         </p>< br/>< br/>< br/>< br/>< br/>< br/>
-                        <Link to="/project2" className="p1-btn">Check it out ›</Link>
+                        <Link to="/project2" className="p1-btn">Read more ›</Link>
                     </div>
-                    <img src={placeholder} alt="placeholder" class='img1'/>
+                    <img src={era} alt="era" class='img1'/>
             </section>
             <hr
             style={{ borderTop: "0px solid lightgrey" }}
