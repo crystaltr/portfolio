@@ -5,6 +5,7 @@ import ProjectOne from './ProjectOne';
 import ProjectTwo from './ProjectTwo';
 import ScrollToTop from './ScrolltoTop';
 import './App.css';
+import CaseStudy from './CaseStudy';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/project1" element={<ProjectOne />} />
         <Route path="/project2" element={<ProjectTwo />} />
+        <Route path="/whatslively" element={<CaseStudy />} />
       </Routes>
       </ScrollToTop>
     </div>

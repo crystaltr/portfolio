@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './project.css';
 import era from './ERA graphic.png'
-import comp1 from './comp1.png';
-import retryiter from './retryiter.png';
-import retry2 from './retry2.png';
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-
+import erap from './erap.gif'
+import eera from './eera.png'
+import erar from './erar.png'
+import state from './stater.png'
 
 
 function ProjectOne() {
@@ -74,7 +74,7 @@ const [showContentTwo, setShowContentTwo] = useState(false); */}
                 </p>
 
                 <h3>High fidelity designs</h3>
-                add prototype gif 
+                <img src={erap} alt="erap" />
                 <p>
                     Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
                     their vehicle which resulted in a new policy. <br/>
@@ -102,12 +102,13 @@ const [showContentTwo, setShowContentTwo] = useState(false); */}
                     confluence page. Then I would have three breakpoints: Desktop, tablet and mobile views, each breakpoint showing the flow in which a customer would edit or replace 
                     their vehicle. <br/><br/>
 
-                    Image goes here <br/><br/>
+                    <img src={eera} alt="eera" style={{width: "100%"}}/><br/><br/>
+                    <img src={erar} alt="erar" /><br/><br/>
 
                     In some cases I would set up a "State" section, this would include any error states, edge cases or specific requirements we would need to catch that is
                     not included in the existing design system documentation. <br/><br/>
 
-                    Image of state section <br/><br/>
+                    <img src={state} alt="stater" /> <br/><br/>
 
                     After the handover documentation is complete I set up a meeting with the dev and testers to walkthrough the flow to catch any further questions or edge cases
                     that we may have missed in previous meetings. Once this walkthrough is done a santity check is done with the devs to ensure the designs translated accurately 

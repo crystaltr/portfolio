@@ -1,14 +1,14 @@
 import React from "react";
 import "./casestudycards.css"; // Import CSS file
 import wl from './lpwl.png';
-import era from './ERA graphic.png'
+import era2 from './ERAg.png'
 
 const caseStudies = [
   {
-    title: "Car Match",
+    title: "Streamlining vehicle updates for Motor Insurance",
     description:
-      "Car Match is an all-in-one platform that simplifies the car buying process by allowing users to research vehicles, connect with trusted dealers, and access RACV-approved information and reviews. The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car with confidence and peace of mind.",
-    image: wl, // Replace with actual image path
+      "Previously, updating a vehicle in a motor insurance policy was unclear and required support. This project introduced a simple, self-service feature, allowing users to replace or edit theirinsured vehicle directly in the portal, ensuring a smoother and more efficient experience.",
+    image: era2, // Replace with actual image path
     link: "/up-case-study",
   },
   {

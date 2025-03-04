@@ -32,13 +32,13 @@ class LandingPage extends Component {
                 <section className="project-section">
                     <div className="project-text">
                     <img src={wl} alt="wl" class='img1'/>
-                    <br/><br/><h2>Whatslively</h2>
+                    <br/><br/><h2>Whatslively redesign</h2>
                         <p>
                         Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. 
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 
                         discovering live events in Australia.
                         </p>
-                        <a href="#" className="p1-btn">Read more ›</a>
+                        <Link to="/whatslively" className="p1-btn">Read more ›</Link>
                     </div>
             </section>
             {/*Car match
@@ -72,17 +72,6 @@ class LandingPage extends Component {
         ></hr><p style={{fontSize: "12px"}}>© 2025 Crystal Truong </p>
             </div>
             
-
-
-           {/*
-            <div className='p1-grid'>
-                <div className='p2-description'>
-                    <h1>Payment redesign</h1>
-                    <p>A redesign of the payments pages to allow users to intuitively update <br/> and delete payment methods.</p>
-                    <Link to="/project1" className="p1-btn">View project</Link>
-                </div>
-                <img src={retry} alt="retry" class='img2'/>
-        </div>*/}
            
             </>
         )
