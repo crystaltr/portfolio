@@ -7,6 +7,7 @@ import rev2 from './rev2.png'
 import rev3 from './rev3.png'
 import comp from './comp.png'
 import ideation from './ideation.png'
+import wlgif from './wlgif.gif'
 
 
 function CaseStudy() {
@@ -109,9 +110,11 @@ function CaseStudy() {
 
                 </p>
 
+                <img src={wlgif} alt="wlgif" />
+
                 <h3>Reflections</h3>
                 <p>
-                    There is always more that could be done to further improve Whatslively as it is a new application that targets the Australian market 
+                    There is always more that could be done to further improve Whatslively. As it is a new application that targets the Australian market 
                     I'm excited to see how it will continue to develop. 
                     
                 </p>
