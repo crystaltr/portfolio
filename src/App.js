@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import Navbar from './NavBar';
 import ProjectOne from './ProjectOne';
-import ProjectTwo from './ProjectTwo';
 import ScrollToTop from './ScrolltoTop';
 import './App.css';
 import CaseStudy from './CaseStudy';
@@ -15,8 +14,7 @@ function App() {
       <ScrollToTop>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/project1" element={<ProjectOne />} />
-        <Route path="/project2" element={<ProjectTwo />} />
+        <Route path="/amendmotor" element={<ProjectOne />} />
         <Route path="/whatslively" element={<CaseStudy />} />
       </Routes>
       </ScrollToTop>

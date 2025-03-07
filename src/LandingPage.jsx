@@ -64,7 +64,7 @@ class LandingPage extends Component {
                         This project introduced a simple, self-service feature, allowing users to replace or edit their
                          insured vehicle directly in the portal, ensuring a smoother and more efficient experience.
                         </p>
-                        <Link to="/project1" className="p1-btn">Read more ›</Link>
+                        <Link to="/amendmotor" className="p1-btn">Read more ›</Link>
                     </div>
             </section>
             <hr
