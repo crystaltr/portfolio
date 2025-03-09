@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c43df2a.css",
-    "main.js": "/portfolio/static/js/main.eeb49290.js",
+    "main.css": "/portfolio/static/css/main.ec5c63ce.css",
+    "main.js": "/portfolio/static/js/main.0b54b7b9.js",
     "static/media/erap.gif": "/portfolio/static/media/erap.e4bf275402ccade9aaa5.gif",
     "static/media/wlgif.gif": "/portfolio/static/media/wlgif.7b966e97e7ad026d4731.gif",
     "static/media/comp.png": "/portfolio/static/media/comp.9ae4d65a401fec7e632f.png",
@@ -9,22 +9,19 @@
     "static/media/ERA graphic.png": "/portfolio/static/media/ERA graphic.ba592b51d0282b323726.png",
     "static/media/WL graphic.png": "/portfolio/static/media/WL graphic.c83a3838298bbd197f7b.png",
     "static/media/lpwl.png": "/portfolio/static/media/lpwl.e089b6328bc68ba72794.png",
-    "static/media/payiter.png": "/portfolio/static/media/payiter.b049dcc1fffb618e095e.png",
     "static/media/ideation.png": "/portfolio/static/media/ideation.039004c2c53ca28bfb22.png",
-    "static/media/paysearch.png": "/portfolio/static/media/paysearch.e7fc03378eead1c67aa4.png",
-    "static/media/pay.png": "/portfolio/static/media/pay.f4195ca26fa025b118b3.png",
     "static/media/eera.png": "/portfolio/static/media/eera.870510598bfb7637362c.png",
     "static/media/erar.png": "/portfolio/static/media/erar.f6b6d5f57f343a1676fb.png",
-    "static/media/stater.png": "/portfolio/static/media/stater.db43e419eadc3902b0c7.png",
+    "static/media/stater.png": "/portfolio/static/media/stater.a7d583988902a51047eb.png",
     "static/media/rev2.png": "/portfolio/static/media/rev2.5f61c2e9de95ae758d88.png",
     "static/media/rev1.png": "/portfolio/static/media/rev1.d2d1366bba38b9f0716b.png",
     "static/media/rev3.png": "/portfolio/static/media/rev3.e8bc1c5d35a681e29d9c.png",
     "index.html": "/portfolio/index.html",
-    "main.4c43df2a.css.map": "/portfolio/static/css/main.4c43df2a.css.map",
-    "main.eeb49290.js.map": "/portfolio/static/js/main.eeb49290.js.map"
+    "main.ec5c63ce.css.map": "/portfolio/static/css/main.ec5c63ce.css.map",
+    "main.0b54b7b9.js.map": "/portfolio/static/js/main.0b54b7b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c43df2a.css",
-    "static/js/main.eeb49290.js"
+    "static/css/main.ec5c63ce.css",
+    "static/js/main.0b54b7b9.js"
   ]
 }
