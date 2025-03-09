@@ -61,3 +61,8 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 768px) {
+    .case-studies{
+      padding: 1.5rem;
+    }
+  }

@@ -74,20 +74,6 @@ body {
 
   
 
-  .default-container {
-    width: 1100px;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 2rem;
-  }
-
-  .tdlr-container {
-    width: 1100px;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 2rem;
-  }
-
   .btn-container {
     display: flex;
     justify-content: center;
@@ -141,6 +127,55 @@ body {
     color: white;
   }
 
+/* General Mobile Styling */
+@media (max-width: 768px) {
+
+  .case-study {
+    padding: 1.5rem;
+  }
+
+  .case-study-title {
+    font-size: 20px;
+    padding: 0.5rem;
+  }
+
+  .case-study-image {
+    height: auto; /* Allow image to scale naturally */
+  }
+
+  .case-study-description {
+    font-size: 14px;
+  }
+
+  .case-study-heading {
+    font-size: 20px;
+    margin-top: 1.5rem;
+  }
+
+  /* Table: Stack columns vertically */
+  .case-study-table {
+    flex-direction: column; /* Stack items instead of side-by-side */
+  }
+
+  .table-column {
+    padding: 1rem;
+  }
+
+  /* design Section */
+  .design-section {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    margin: 0; /* Remove any extra margins */
+    margin-left: -35px;
+  }
+
+  .revimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+}
 
 
 

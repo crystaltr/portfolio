@@ -9,14 +9,14 @@ const caseStudies = [
     description:
       "Previously, updating a vehicle in a motor insurance policy was unclear and required support. This project introduced a simple, self-service feature, allowing users to replace or edit theirinsured vehicle directly in the portal, ensuring a smoother and more efficient experience.",
     image: era2, // Replace with actual image path
-    link: "/up-case-study",
+    link: "/#/amendmotor",
   },
   {
     title: "Whatslively",
     description:
       "Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. This case study focuses on identifying gaps in the current app and designing solutions that better support users in finding and managing live events.",
     image: wl, // Replace with actual image path
-    link: "/ownhome-case-study",
+    link: "/#/whatslively",
   },
 ];
 
