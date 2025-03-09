@@ -69,7 +69,8 @@ class LandingPage extends Component {
             </section>
             <hr
             style={{ borderTop: "0px solid lightgrey" }}
-        ></hr><p style={{fontSize: "12px"}}>© 2025 Crystal Truong </p>
+        ></hr><p style={{fontSize: "12px"}}>Designed and built by me</p>
+        <p style={{fontSize: "12px"}}>© 2025 Crystal Truong </p>
             </div>
             
            

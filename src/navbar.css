@@ -25,9 +25,3 @@ ul a:hover{
     color: #ED9AB6;
     -webkit-transition: 200ms;
 }
-
-ul a:focus{
-    color: #ED9AB6;
-    -webkit-transition: 200ms;
-}
-

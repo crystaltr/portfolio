@@ -110,7 +110,7 @@ function CaseStudy() {
 
                 </p>
 
-                <img src={wlgif} alt="wlgif" style={{width: "100%"}} />
+                <img src={wlgif} alt="wlgif" class="wlgif"/>
 
                 <h3>Reflections</h3>
                 <p>
