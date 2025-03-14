@@ -103,12 +103,12 @@ const [showContentTwo, setShowContentTwo] = useState(false); */}
                     their vehicle. <br/><br/>
 
                     <img src={eera} alt="eera" style={{width: "100%"}}/><br/><br/>
-                    <img src={erar} alt="erar" /><br/><br/>
+                    <img src={erar} alt="erar" style={{width: "100%"}}/><br/><br/>
 
                     In some cases I would set up a "State" section, this would include any error states, edge cases or specific requirements we would need to catch that is
                     not included in the existing design system documentation. <br/><br/>
 
-                    <img src={state} alt="stater" /> <br/><br/>
+                    <img src={state} alt="stater" style={{width: "100%"}}/> <br/><br/>
 
                     After the handover documentation is complete I set up a meeting with the dev and testers to walkthrough the flow to catch any further questions or edge cases
                     that we may have missed in previous meetings. Once this walkthrough is done a santity check is done with the devs to ensure the designs translated accurately 

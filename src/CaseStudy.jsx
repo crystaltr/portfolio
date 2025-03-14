@@ -8,6 +8,8 @@ import rev3 from './rev3.png'
 import comp from './comp.png'
 import ideation from './ideation.png'
 import wlgif from './wlgif.gif'
+import c1 from'./c1.png'
+import c2 from './c2.png'
 
 
 function CaseStudy() {
@@ -80,6 +82,10 @@ function CaseStudy() {
                     if an artist they are interested in is touring in Australia. These tedious actions could be 
                     prevented by adding in push notifcations which instantly inform users from the app if an artist is touring or not. 
                     < br/><br/>
+                    <img src={c1} alt="c1" style={{width: "100%"}} /><br/>
+                    <img src={c2} alt="c2" style={{width: "50%"}} /><br/>
+                    Based on the points customers have made, I looked into the current state to identify the pain points and potential solutions
+                    that would work well within the current flow. <br/>
                     <img src={comp} alt="comp" style={{width: "100%"}} />
                     A competitor analysis was also done looking at Whatslivelys direct competitors Songkick, Bandsintown and Spotify. 
                     Songkick was the most refined among the three as the app had clear visuals of artists, a clear layout of 

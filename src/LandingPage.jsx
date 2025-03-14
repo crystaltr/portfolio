@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import placeholder from './placeholder.png';
 import wl from './lpwl.png';
 import era from './ERA graphic.png'
+import cm from './CM.png'
 
 
 class LandingPage extends Component {
@@ -41,10 +42,9 @@ class LandingPage extends Component {
                         <Link to="/whatslively" className="p1-btn">Read more ›</Link>
                     </div>
             </section>
-            {/*Car match
-            <section className="project-section">
+            {/* <section className="project-section">
                     <div className="project-text">
-                        <img src={placeholder} alt="placeholder" class='img1'/>
+                        <img src={cm} alt="cm" class='img1'/>
                         <h2>Car match</h2>
                         <p>
                         Car Match is an all-in-one platform that simplifies the car buying process by allowing users
@@ -54,7 +54,7 @@ class LandingPage extends Component {
                         </p>
                         <a href="#" className="p1-btn">Check it out ›</a>
                     </div>
-        </section>*/}
+        </section> */}
             <section className="project-section">
                     <div className="project-text">
                             <img src={era} alt="era" class='img1'/>
