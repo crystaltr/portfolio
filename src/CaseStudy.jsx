@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './project.css';
 import wl2 from './WL graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
@@ -16,7 +16,7 @@ function CaseStudy() {
 
         return (
         <>
-            <section className="case-study">
+          <section className="case-study">
                 
             {/* Image Placeholder */}
             <img src={wl2} alt="era" class='case-study-image'/>
@@ -120,7 +120,9 @@ function CaseStudy() {
 
                 <h3>Reflections</h3>
                 <p>
-                    There is always more that could be done to further improve Whatslively. As it is a new application that targets the Australian market 
+                    There is always more that could be done to further improve Whatslively, like allowinig integration with 
+                    the google/ios calendar for concerts fans are attending, improving visibility of what gigs are occuring on the day
+                    or enhancing the overall UI interface. As it is a new application that targets the Australian market 
                     I'm excited to see how it will continue to develop. 
                     
                 </p>

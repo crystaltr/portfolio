@@ -5,6 +5,7 @@ import ProjectOne from './ProjectOne';
 import ScrollToTop from './ScrolltoTop';
 import './App.css';
 import CaseStudy from './CaseStudy';
+import CarMatch from './CarMatch';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/amendmotor" element={<ProjectOne />} />
         <Route path="/whatslively" element={<CaseStudy />} />
+        <Route path="/caradvisory" element={<CarMatch />} />
       </Routes>
       </ScrollToTop>
     </div>

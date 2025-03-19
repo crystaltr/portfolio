@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './landingpage.css';
 import { Link } from 'react-router-dom';
-import placeholder from './placeholder.png';
 import wl from './lpwl.png';
 import era from './ERA graphic.png'
 import cm from './CM.png'
@@ -30,6 +29,19 @@ class LandingPage extends Component {
                             I’ve worked on and personal projects I’ve been working on!</p>
                     </div>       
                 </section>
+                {/* <section className="project-section">
+                    <div className="project-text">
+                        <img src={cm} alt="cm" class='img1'/>
+                        <h2>Car advisory platform</h2>
+                        <p>
+                        An all-in-one platform that simplifies the car buying process by allowing users
+                        to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company. 
+                        The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car 
+                        with confidence and peace of mind.
+                        </p>
+                        <Link to="/caradvisory" className="p1-btn">Read more ›</Link>
+                    </div>
+        </section> */}
                 <section className="project-section">
                     <div className="project-text">
                     <img src={wl} alt="wl" class='img1'/>
@@ -42,19 +54,6 @@ class LandingPage extends Component {
                         <Link to="/whatslively" className="p1-btn">Read more ›</Link>
                     </div>
             </section>
-            {/* <section className="project-section">
-                    <div className="project-text">
-                        <img src={cm} alt="cm" class='img1'/>
-                        <h2>Car match</h2>
-                        <p>
-                        Car Match is an all-in-one platform that simplifies the car buying process by allowing users
-                        to research vehicles, connect with trusted dealers, and access RACV-approved information and reviews. 
-                        The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car 
-                        with confidence and peace of mind.
-                        </p>
-                        <a href="#" className="p1-btn">Check it out ›</a>
-                    </div>
-        </section> */}
             <section className="project-section">
                     <div className="project-text">
                             <img src={era} alt="era" class='img1'/>
