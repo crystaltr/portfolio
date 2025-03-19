@@ -72,21 +72,20 @@ function CaseStudy() {
                 <p>
                     I started off first looking at reviews on app store and play store to gain any qualatative data. 
                     The main areas reviews called out were: <br/><br/>
-                    <img src={rev1} alt="rev1" class="revimg" /><img src={rev2} alt="rev2" class="revimg"/><br/>
                     <b>Lack of imagery</b><br/>
                     When searching or sifting through artists users can only see a wall of text and no way to differentiate
                     artists with the same or similar name. <br/><br/>
-                    <img src={rev3} alt="rev3" class="revimg"/><br/>
+                    <img src={rev1} alt="rev1" class="revimg" /><img src={rev2} alt="rev2" class="revimg"/><br/>
                     <b>Lack of notice on concerts</b><br/>
                     With only email users have to rely on going through their inbox or looking through the app to see 
                     if an artist they are interested in is touring in Australia. These tedious actions could be 
                     prevented by adding in push notifcations which instantly inform users from the app if an artist is touring or not. 
+                    <img src={rev3} alt="rev3" class="revimg"/><br/>
                     < br/><br/>
+                    Based on the points customers have made, I looked into the <b>current state</b> to identify the pain points and potential solutions
+                    that would work well within the current flow. <br/><br/>
                     <img src={c1} alt="c1" style={{width: "100%"}} /><br/>
-                    <img src={c2} alt="c2" style={{width: "50%"}} /><br/>
-                    Based on the points customers have made, I looked into the current state to identify the pain points and potential solutions
-                    that would work well within the current flow. <br/>
-                    <img src={comp} alt="comp" style={{width: "100%"}} />
+                    <img src={c2} alt="c2" style={{width: "50%"}} /><br/><br/><br/>
                     A competitor analysis was also done looking at Whatslivelys direct competitors Songkick, Bandsintown and Spotify. 
                     Songkick was the most refined among the three as the app had clear visuals of artists, a clear layout of 
                     the venue location, line up and a button to direct users to purchase tickets. Songkick also added other nice features like
@@ -94,6 +93,8 @@ function CaseStudy() {
                     if there was a location filter for states. 
                     Both Songkick and Bandsintown inform users through push notifcation of artists touring in their area which is essential 
                     in an app that informs users of concerts. Spotify's main advantage was it has a well defined music ecosystem making it an all in one place. 
+                    <img src={comp} alt="comp" style={{width: "100%"}} /><br/>
+                    
                 </p>
 
                 <h3>High fidelity designs</h3>
