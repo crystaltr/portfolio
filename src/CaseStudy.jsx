@@ -70,7 +70,7 @@ function CaseStudy() {
                 <h2>Design process</h2>
                 <h3>Discovery</h3>
                 <p>
-                    I started off first looking at reviews on app store and play store to gain any qualatative data. 
+                    I started off first looking at reviews on the App store and Play store to gain any qualatative data. 
                     The main areas reviews called out were: <br/><br/>
                     <b>Lack of imagery</b><br/>
                     When searching or sifting through artists users can only see a wall of text and no way to differentiate

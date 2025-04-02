@@ -45,7 +45,7 @@ class LandingPage extends Component {
                 <section className="project-section">
                     <div className="project-text">
                     <img src={wl} alt="wl" class='img1'/>
-                    <br/><br/><h2>Whatslively redesign</h2>
+                    <br/><br/><h2>Enhancing visibility in events with Whatslively</h2>
                         <p>
                         Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. 
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 

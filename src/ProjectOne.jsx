@@ -9,7 +9,7 @@ import state from './stater.png'
 
 
 function ProjectOne() {
-    
+
         return (
             <>
             <section className="case-study">
@@ -42,8 +42,8 @@ function ProjectOne() {
         ></hr>
                 <p>
                   As a leading insurance company, these key features were needed to ensure
-                  a better experiene for customers to ensure they can freely update or replace their
-                  vehicle in the motor insurance policy online instead of calling up causing increase in traffic
+                  a better experience for customers to ensure they can freely update or replace their
+                  vehicle in the motor insurance policy online, reducing the need to call customer support.
                 </p>
               </div>
               <div className="table-column solution">
@@ -62,7 +62,7 @@ function ProjectOne() {
                 <h2>Design process</h2>
                 <h3>Discovery</h3>
                 <p>
-                    The project kicked off with connecting with the key stakeholders: The motor insurance subject matter specialist
+                    The project kicked off with connecting with the key stakeholders: The motor insurance Subject Matter specialist
                     Product owner, Tech specialist, Devs and Lead designer. < br/><br/>
                     In this meeting we identify what are the key features that are needed and what is feasible for the projected timeline of delivery.
                     After identifying all the key requirements we were able to start on breaking down the current work flow and start including the ability to 
@@ -98,7 +98,7 @@ function ProjectOne() {
                 <h3>Handover</h3>
                 <p>
                     After going through design approvals I start setting up the handover file. The key aspects of the handover is links to the relevant JIRA ticket, MIRO board and 
-                    confluence page. Then I would have three breakpoints: Desktop, tablet and mobile views, each breakpoint showing the flow in which a customer would edit or replace 
+                    Confluence page. Then I would have three breakpoints: Desktop, tablet and mobile views, each breakpoint showing the flow in which a customer would edit or replace 
                     their vehicle. <br/><br/>
 
                     <img src={eera} alt="eera" style={{width: "100%"}}/><br/><br/>
@@ -116,7 +116,7 @@ function ProjectOne() {
                 <h3>Outcome</h3>
                 <p>
                     6 months after the rollout of the amendment feature <b>19,027 updates</b> were made by customers which has reduced the need to call the customer support team. As a result of 
-                    this feature other aspects that could be changed in the motor insurance policy was also implemented which has resulted in a significant decrease in traffic for the 
+                    this feature, other aspects that could be changed in the motor insurance policy was also implemented which has resulted in a significant decrease in traffic for the 
                     customer support motor team. 
                 </p>
                     
