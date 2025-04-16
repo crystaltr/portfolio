@@ -75,6 +75,10 @@
   color: #555;
 }
 
+.project-text h2 {
+  margin-bottom: 12px;
+}
+
 /* Button Styling */
 .p1-btn {
   background-color: #fff7fa;
@@ -164,4 +168,16 @@
   width: 100%; /* Make image responsive */
   max-width: 700px; /* Adjust size as needed */
   height: auto;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid #DA627D;
+  border-radius: 20px;
+  color:  #DA627D;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  margin: 4px;
+  letter-spacing: 0.5px;
 }

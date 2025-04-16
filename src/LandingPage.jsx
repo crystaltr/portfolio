@@ -46,6 +46,13 @@ class LandingPage extends Component {
                     <div className="project-text">
                     <img src={wl} alt="wl" class='img1'/>
                     <br/><br/><h2>Enhancing visibility in events with Whatslively</h2>
+                    <div class="tags">
+                        <span class="tag">Feature Prioritisation</span>
+                        <span class="tag">Problem Framing</span>
+                        <span class="tag">Competitor Analysis</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">Product Thinking</span>
+                    </div>
                         <p>
                         Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. 
                         This case study focuses on identifying gaps in the current app and designing solutions that better support users in 
@@ -58,6 +65,13 @@ class LandingPage extends Component {
                     <div className="project-text">
                             <img src={era} alt="era" class='img1'/>
                         <h2>Streamlining vehicle updates for Motor Insurance</h2>
+                        <div class="tags">
+                        <span class="tag">Design Strategy</span>
+                        <span class="tag">Problem Framing</span>
+                        <span class="tag">Stakeholder Alignment</span>
+                        <span class="tag">Task Flows</span>
+                        <span class="tag">Developer Handoff</span>
+                        </div>
                         <p>
                         Previously, updating a vehicle in a motor insurance policy was unclear and required support. 
                         This project introduced a simple, self-service feature, allowing users to replace or edit their
