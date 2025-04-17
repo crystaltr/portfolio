@@ -62,8 +62,8 @@ function ProjectOne() {
                 <h2>Design process</h2>
                 <h3>Discovery</h3>
                 <p>
-                    The project kicked off with connecting with the key stakeholders: The motor insurance Subject Matter specialist
-                    Product owner, Tech specialist, Devs and Lead designer. < br/><br/>
+                    The project kicked off with connecting with the key stakeholders: The motor insurance Subject Matter specialist,
+                    Product owner, Tech specialist, Devs and myself the lead designer. < br/><br/>
                     In this meeting we identify what are the key features that are needed and what is feasible for the projected timeline of delivery.
                     After identifying all the key requirements we were able to start on breaking down the current work flow and start including the ability to 
                     edit and update the vehicle in the policy
@@ -75,6 +75,28 @@ function ProjectOne() {
                 <h3>High fidelity designs</h3>
                 <img src={erap} alt="erap" />
                 <p>
+                    Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
+                    their vehicle which resulted in a new policy. <br/>
+                    The key components I took into account was <br/>
+                </p>
+                <div class="card-container">
+                    <div class="card">
+                        <h4>A seamless experience</h4>
+                        <p>By having inline editing this makes it easier for the customer to identify which section of the policy they are amending, ensuring there is no confusion with where they are in the flow.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Differentiating between 'Edit' and 'Replace'</h4>
+                        <p>Working with the copywriting team, we wanted to make it clear what options the customer had when they updated their motor policy. We added a description in the modal providing customers a clear explanation of what they can do.</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Compatibility in mobile</h4>
+                        <p>Our digital metrics show that 70% of customers log into the customer portal on mobile, so it was essential that the flow remained consistent and easy to view on smaller screens.</p>
+                    </div>
+                </div>
+
+                {/* <p>
                     Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
                     their vehicle which resulted in a new policy. <br/>
                     The key components I took into account was <br/><br/>
@@ -93,7 +115,7 @@ function ProjectOne() {
 
                     These designs are reviewed and iterated after multiple design reviews with devs, project owner and business analyst and finally with the head of design to ensure
                     the designs are in line with the overall digital experience.
-                </p>
+                </p> */}
 
                 <h3>Handover</h3>
                 <p>
