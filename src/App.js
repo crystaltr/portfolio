@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import LandingPage from './LandingPage';
+import MainPage from './MainPage';
 import Navbar from './NavBar';
 import ProjectOne from './ProjectOne';
 import ScrollToTop from './ScrolltoTop';
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <ScrollToTop>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/amendmotor" element={<ProjectOne />} />
         <Route path="/whatslively" element={<CaseStudy />} />
         <Route path="/caradvisory" element={<CarMatch />} />
