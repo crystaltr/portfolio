@@ -96,26 +96,6 @@ function ProjectOne() {
                     </div>
                 </div>
 
-                {/* <p>
-                    Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
-                    their vehicle which resulted in a new policy. <br/>
-                    The key components I took into account was <br/><br/>
-
-                    <b>A seamless experience</b> <br/>
-                    By having inline editing this makes it easier for the customer to identify which section of the policy they are amending, ensuring there is no confusion with where
-                    they are the flow. <br/><br/>
-
-                    <b>Differentiating between 'Edit' and 'Replace'</b><br/>
-                    Working with the copywrite team we wanted to make it clear what options the customer had when they updated their motor policy. We added a description in the modal
-                    providing customers a clear description of what they can do. <br/><br/>
-
-                    <b>Compatibility in mobile</b><br/>
-                    Our digital metrics state that 70% of customers log into the customer portal on their mobile device, therefore it was essential that the flow stayed consistent and
-                    easy to view in mobile screens. 
-
-                    These designs are reviewed and iterated after multiple design reviews with devs, project owner and business analyst and finally with the head of design to ensure
-                    the designs are in line with the overall digital experience.
-                </p> */}
 
                 <h3>Handover</h3>
                 <p>
