@@ -43,26 +43,28 @@
 .project-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
+  width: 100%;
 }
 
 .project-image {
   width: 100%;
   height: auto;
-  aspect-ratio: 3/2;
+  aspect-ratio: 4/3;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 1px solid #eee;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-image:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
 }
 
 .project-details {
-  padding-left: 1rem;
+  padding-left: 0;
+  max-width: 800px;
 }
 
 .project-details .tags {
