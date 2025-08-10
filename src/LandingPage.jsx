@@ -29,19 +29,6 @@ class LandingPage extends Component {
                             I’ve worked on and personal projects I’ve been working on!</p>
                     </div>       
                 </section>
-                {/* <section className="project-section">
-                    <div className="project-text">
-                        <img src={cm} alt="cm" className='img1'/>
-                        <h2>Car advisory platform</h2>
-                        <p>
-                        An all-in-one platform that simplifies the car buying process by allowing users
-                        to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company. 
-                        The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car 
-                        with confidence and peace of mind.
-                        </p>
-                        <Link to="/caradvisory" className="p1-btn">Read more ›</Link>
-                    </div>
-        </section> */}
                 <section className="project-section">
                     <div className="project-text">
                     <img src={wl} alt="wl" className='img1'/>
