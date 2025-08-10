@@ -66,6 +66,10 @@
   padding-left: 1rem;
 }
 
+.project-details .tags {
+  margin-bottom: 1.5rem;
+}
+
 .project-title {
   font-size: 1.5rem;
   font-weight: 600;
