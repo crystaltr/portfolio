@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-
 .App {
   display: grid;
-  gap: 2rem;
+  gap: var(--spacing-large);
   grid-template-columns: 1fr;
   font-family: 'JetBrains Mono', monospace;
-  color: #454545;
+  color: var(--primary-color);
 }
 
+/* Ensure body doesn't have horizontal overflow */
+body {
+  overflow-x: hidden;
+}

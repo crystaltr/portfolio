@@ -1,11 +1,10 @@
-
 .nav-grid {
     display: grid;
-    gap: 1rem;
+    gap: var(--spacing-medium);
     grid-template-columns: 1fr;
-    color: #454545;
-    font-size: 1rem;
-    padding-right: 1rem;
+    color: var(--primary-color);
+    font-size: var(--font-size-medium);
+    padding-right: var(--spacing-medium);
 }
 
 .ul-grid {
@@ -14,14 +13,13 @@
     align-items: center;
 }
 
-
-ul a{
-    color: #454545;
-    padding: 1rem;
+ul a {
+    color: var(--primary-color);
+    padding: var(--spacing-medium);
     text-decoration: none;
+    transition: color 200ms ease;
 }
 
-ul a:hover{
-    color: #ED9AB6;
-    -webkit-transition: 200ms;
+ul a:hover {
+    color: var(--accent-color);
 }
