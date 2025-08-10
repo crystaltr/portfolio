@@ -22,10 +22,15 @@ class MainPage extends Component {
                             <img src={placeholder} alt="Car Match Mobile" className='project-image'/>
                         </div>
                         <div className='project-details'>
+                            <div className="tags">
+                                <span className="tag">Design Strategy</span>
+                                <span className="tag">Problem Framing</span>
+                                <span className="tag">Stakeholder Alignment</span>
+                                <span className="tag">Task Flows</span>
+                                <span className="tag">Developer Handoff</span>
+                            </div>
                             <h3 className='project-title'>Car Match</h3>
-                            <p className='project-year'>2024</p>
-                            <p className='project-description'>↗ Adjust text tone by dragging a dial across a tactile axis.</p>
-                            <p className='project-launched'>Launched at Config 2024 alongside Figma Slides, the Car Match platform helps users find the perfect vehicle with confidence and peace of mind.</p>
+                            <p className='project-description'>An all-in-one platform that simplifies the car buying process by allowing users to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company. The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car with confidence and peace of mind.</p>
                         </div>
                     </div>
                     
@@ -36,10 +41,15 @@ class MainPage extends Component {
                             <img src={placeholder} alt="Portal Updates" className='project-image'/>
                         </div>
                         <div className='project-details'>
-                            <h3 className='project-title'>Vehicle Updates Portal</h3>
-                            <p className='project-year'>2024</p>
-                            <p className='project-description'>↗ Self-service vehicle management for motor insurance.</p>
-                            <p className='project-launched'>This project introduced a simple, self-service feature for users to manage their insured vehicles directly in the portal.</p>
+                            <div className="tags">
+                                <span className="tag">Design Strategy</span>
+                                <span className="tag">Problem Framing</span>
+                                <span className="tag">Stakeholder Alignment</span>
+                                <span className="tag">Task Flows</span>
+                                <span className="tag">Developer Handoff</span>
+                            </div>
+                            <h3 className='project-title'>Streamlining vehicle updates for Motor Insurance</h3>
+                            <p className='project-description'>Previously, updating a vehicle in a motor insurance policy was unclear and required support. This project introduced a simple, self-service feature, allowing users to replace or edit their insured vehicle directly in the portal, ensuring a smoother and more efficient experience.</p>
                         </div>
                     </div>
                 </div>
