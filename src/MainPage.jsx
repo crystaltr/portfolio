@@ -15,12 +15,12 @@ class MainPage extends Component {
                 <section className='project-section'>
                     <div><img src={placeholder}/><img src={placeholder}/><img src={placeholder}/></div>
                     < br/>
-                    <div class="tags">
-                        <span class="tag">Design Strategy</span>
-                        <span class="tag">Problem Framing</span>
-                        <span class="tag">Stakeholder Alignment</span>
-                        <span class="tag">Task Flows</span>
-                        <span class="tag">Developer Handoff</span>
+                    <div className="tags">
+                        <span className="tag">Design Strategy</span>
+                        <span className="tag">Problem Framing</span>
+                        <span className="tag">Stakeholder Alignment</span>
+                        <span className="tag">Task Flows</span>
+                        <span className="tag">Developer Handoff</span>
                         </div>
                     <h2>Car match</h2>
                     <p>
@@ -33,12 +33,12 @@ class MainPage extends Component {
                 <section className='project-section'>
                     <div><img src={placeholder}/><img src={placeholder}/><img src={placeholder}/></div>
                     < br/>
-                    <div class="tags">
-                        <span class="tag">Design Strategy</span>
-                        <span class="tag">Problem Framing</span>
-                        <span class="tag">Stakeholder Alignment</span>
-                        <span class="tag">Task Flows</span>
-                        <span class="tag">Developer Handoff</span>
+                    <div className="tags">
+                        <span className="tag">Design Strategy</span>
+                        <span className="tag">Problem Framing</span>
+                        <span className="tag">Stakeholder Alignment</span>
+                        <span className="tag">Task Flows</span>
+                        <span className="tag">Developer Handoff</span>
                         </div>
                     <h2>Streamlining vehicle updates for Motor Insurance</h2>
                     <p>

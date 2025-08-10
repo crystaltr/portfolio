@@ -13,13 +13,13 @@ class LandingPage extends Component {
             <div className='landing-container'>
                 <section className='hero-section'>
                     <div className='cube-wrapper'>
-                        <div class="cube">
-                            <div class="face front"></div>
-                            <div class="face back"></div>
-                            <div class="face left"></div>
-                            <div class="face right"></div>
-                            <div class="face top"></div>
-                            <div class="face bottom"></div>
+                        <div className="cube">
+                            <div className="face front"></div>
+                            <div className="face back"></div>
+                            <div className="face left"></div>
+                            <div className="face right"></div>
+                            <div className="face top"></div>
+                            <div className="face bottom"></div>
                         </div>
                     </div>
                     {/*Introduction section*/}
@@ -31,7 +31,7 @@ class LandingPage extends Component {
                 </section>
                 {/* <section className="project-section">
                     <div className="project-text">
-                        <img src={cm} alt="cm" class='img1'/>
+                        <img src={cm} alt="cm" className='img1'/>
                         <h2>Car advisory platform</h2>
                         <p>
                         An all-in-one platform that simplifies the car buying process by allowing users
@@ -44,14 +44,14 @@ class LandingPage extends Component {
         </section> */}
                 <section className="project-section">
                     <div className="project-text">
-                    <img src={wl} alt="wl" class='img1'/>
+                    <img src={wl} alt="wl" className='img1'/>
                     <br/><br/><h2>Enhancing visibility in events with Whatslively</h2>
-                    <div class="tags">
-                        <span class="tag">Feature Prioritisation</span>
-                        <span class="tag">Problem Framing</span>
-                        <span class="tag">Competitor Analysis</span>
-                        <span class="tag">Prototyping</span>
-                        <span class="tag">Product Thinking</span>
+                    <div className="tags">
+                        <span className="tag">Feature Prioritisation</span>
+                        <span className="tag">Problem Framing</span>
+                        <span className="tag">Competitor Analysis</span>
+                        <span className="tag">Prototyping</span>
+                        <span className="tag">Product Thinking</span>
                     </div>
                         <p>
                         Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. 
@@ -63,14 +63,14 @@ class LandingPage extends Component {
             </section>
             <section className="project-section">
                     <div className="project-text">
-                            <img src={era} alt="era" class='img1'/>
+                            <img src={era} alt="era" className='img1'/>
                         <h2>Streamlining vehicle updates for Motor Insurance</h2>
-                        <div class="tags">
-                        <span class="tag">Design Strategy</span>
-                        <span class="tag">Problem Framing</span>
-                        <span class="tag">Stakeholder Alignment</span>
-                        <span class="tag">Task Flows</span>
-                        <span class="tag">Developer Handoff</span>
+                        <div className="tags">
+                        <span className="tag">Design Strategy</span>
+                        <span className="tag">Problem Framing</span>
+                        <span className="tag">Stakeholder Alignment</span>
+                        <span className="tag">Task Flows</span>
+                        <span className="tag">Developer Handoff</span>
                         </div>
                         <p>
                         Previously, updating a vehicle in a motor insurance policy was unclear and required support. 

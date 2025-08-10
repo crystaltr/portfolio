@@ -15,7 +15,7 @@ function ProjectOne() {
             <section className="case-study">
                 
             {/* Image Placeholder */}
-            <img src={era} alt="era" class='case-study-image'/>
+            <img src={era} alt="era" className='case-study-image'/>
             {/* Title Section */}
             <div className="case-study-title">
             Streamlining vehicle updates for Motor Insurance
@@ -79,18 +79,18 @@ function ProjectOne() {
                     their vehicle which resulted in a new policy. <br/>
                     The key components I took into account was <br/>
                 </p>
-                <div class="card-container">
-                    <div class="card">
+                <div className="card-container">
+                    <div className="card">
                         <h4>A seamless experience</h4>
                         <p>By having inline editing this makes it easier for the customer to identify which section of the policy they are amending, ensuring there is no confusion with where they are in the flow.</p>
                     </div>
 
-                    <div class="card">
+                    <div className="card">
                         <h4>Differentiating between 'Edit' and 'Replace'</h4>
                         <p>Working with the copywriting team, we wanted to make it clear what options the customer had when they updated their motor policy. We added a description in the modal providing customers a clear explanation of what they can do.</p>
                     </div>
 
-                    <div class="card">
+                    <div className="card">
                         <h4>Compatibility in mobile</h4>
                         <p>Our digital metrics show that 70% of customers log into the customer portal on mobile, so it was essential that the flow remained consistent and easy to view on smaller screens.</p>
                     </div>
