@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import LandingPage from './LandingPage';
 import MainPage from './MainPage';
 import Navbar from './NavBar';
 import ProjectOne from './ProjectOne';

@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link
-import "./casestudycards.css";
-import wl from "./lpwl.png";
-import era2 from "./ERAg.png";
+import "./styles/shared.css";
+import "./styles/CaseStudyCards.css";
+import wl from "./assets/images/lpwl.png";
+import era2 from "./assets/images/ERAg.png";
 
 const caseStudies = [
   {

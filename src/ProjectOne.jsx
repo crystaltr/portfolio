@@ -1,11 +1,12 @@
 import React from 'react';
-import './project.css';
-import era from './ERA graphic.png'
+import './styles/shared.css';
+import './styles/CaseStudy.css';
+import era from './assets/images/ERA graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-import erap from './erap.gif'
-import eera from './eera.png'
-import erar from './erar.png'
-import state from './stater.png'
+import erap from './assets/images/erap.gif'
+import eera from './assets/images/eera.png'
+import erar from './assets/images/erar.png'
+import state from './assets/images/stater.png'
 
 
 function ProjectOne() {
@@ -15,7 +16,7 @@ function ProjectOne() {
             <section className="case-study">
                 
             {/* Image Placeholder */}
-            <img src={era} alt="era" class='case-study-image'/>
+            <img src={era} alt="era" className='case-study-image'/>
             {/* Title Section */}
             <div className="case-study-title">
             Streamlining vehicle updates for Motor Insurance
@@ -79,43 +80,23 @@ function ProjectOne() {
                     their vehicle which resulted in a new policy. <br/>
                     The key components I took into account was <br/>
                 </p>
-                <div class="card-container">
-                    <div class="card">
+                <div className="card-container">
+                    <div className="card">
                         <h4>A seamless experience</h4>
                         <p>By having inline editing this makes it easier for the customer to identify which section of the policy they are amending, ensuring there is no confusion with where they are in the flow.</p>
                     </div>
 
-                    <div class="card">
+                    <div className="card">
                         <h4>Differentiating between 'Edit' and 'Replace'</h4>
                         <p>Working with the copywriting team, we wanted to make it clear what options the customer had when they updated their motor policy. We added a description in the modal providing customers a clear explanation of what they can do.</p>
                     </div>
 
-                    <div class="card">
+                    <div className="card">
                         <h4>Compatibility in mobile</h4>
                         <p>Our digital metrics show that 70% of customers log into the customer portal on mobile, so it was essential that the flow remained consistent and easy to view on smaller screens.</p>
                     </div>
                 </div>
 
-                {/* <p>
-                    Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
-                    their vehicle which resulted in a new policy. <br/>
-                    The key components I took into account was <br/><br/>
-
-                    <b>A seamless experience</b> <br/>
-                    By having inline editing this makes it easier for the customer to identify which section of the policy they are amending, ensuring there is no confusion with where
-                    they are the flow. <br/><br/>
-
-                    <b>Differentiating between 'Edit' and 'Replace'</b><br/>
-                    Working with the copywrite team we wanted to make it clear what options the customer had when they updated their motor policy. We added a description in the modal
-                    providing customers a clear description of what they can do. <br/><br/>
-
-                    <b>Compatibility in mobile</b><br/>
-                    Our digital metrics state that 70% of customers log into the customer portal on their mobile device, therefore it was essential that the flow stayed consistent and
-                    easy to view in mobile screens. 
-
-                    These designs are reviewed and iterated after multiple design reviews with devs, project owner and business analyst and finally with the head of design to ensure
-                    the designs are in line with the overall digital experience.
-                </p> */}
 
                 <h3>Handover</h3>
                 <p>

@@ -1,15 +1,16 @@
 import React from 'react';
-import './project.css';
-import wl2 from './WL graphic.png'
+import './styles/shared.css';
+import './styles/CaseStudy.css';
+import wl2 from './assets/images/WL graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-import rev1 from './rev1.png'
-import rev2 from './rev2.png'
-import rev3 from './rev3.png'
-import comp from './comp.png'
-import ideation from './ideation.png'
-import wlgif from './wlgif.gif'
-import c1 from'./c1.png'
-import c2 from './c2.png'
+import rev1 from './assets/images/rev1.png'
+import rev2 from './assets/images/rev2.png'
+import rev3 from './assets/images/rev3.png'
+import comp from './assets/images/comp.png'
+import ideation from './assets/images/ideation.png'
+import wlgif from './assets/images/wlgif.gif'
+import c1 from'./assets/images/c1.png'
+import c2 from './assets/images/c2.png'
 
 
 function CaseStudy() {
@@ -19,7 +20,7 @@ function CaseStudy() {
           <section className="case-study">
                 
             {/* Image Placeholder */}
-            <img src={wl2} alt="era" class='case-study-image'/>
+            <img src={wl2} alt="era" className='case-study-image'/>
             {/* Title Section */}
             <div className="case-study-title">
             Whatslively redesign 
@@ -75,12 +76,12 @@ function CaseStudy() {
                     <b>Lack of imagery</b><br/>
                     When searching or sifting through artists users can only see a wall of text and no way to differentiate
                     artists with the same or similar name. <br/><br/>
-                    <img src={rev1} alt="rev1" class="revimg" /><img src={rev2} alt="rev2" class="revimg"/><br/>
+                    <img src={rev1} alt="rev1" className="revimg" /><img src={rev2} alt="rev2" className="revimg"/><br/>
                     <b>Lack of notice on concerts</b><br/>
                     With only email users have to rely on going through their inbox or looking through the app to see 
                     if an artist they are interested in is touring in Australia. These tedious actions could be 
                     prevented by adding in push notifcations which instantly inform users from the app if an artist is touring or not. 
-                    <img src={rev3} alt="rev3" class="revimg"/><br/>
+                    <img src={rev3} alt="rev3" className="revimg"/><br/>
                     < br/><br/>
                     Based on the points customers have made, I looked into the <b>current state</b> to identify the pain points and potential solutions
                     that would work well within the current flow. <br/><br/>
@@ -117,7 +118,7 @@ function CaseStudy() {
 
                 </p>
 
-                <img src={wlgif} alt="wlgif" class="wlgif"/>
+                <img src={wlgif} alt="wlgif" className="wlgif"/>
 
                 <h3>Reflections</h3>
                 <p>
