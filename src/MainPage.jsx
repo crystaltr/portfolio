@@ -9,48 +9,45 @@ class MainPage extends Component {
         return (
             <>
             <div className='main-container'>
-                <div className='hero-container'>
-                <h2>Hi! I'm Crystal,< br/></h2>
-                        <p>I’m a UX designer based in Melbourne, Australia who strives to work on products that improve peoples everyday life. Below are some live projects 
-                            I’ve worked on and personal projects I’ve been working on!</p>
+                <header className='site-header'>
+                    <h1 className='designer-name'>Crystal Truong</h1>
+                    <p className='designer-title'>UX Designer @ Melbourne</p>
+                </header>
+                
+                <div className='projects-grid'>
+                    <div className='project-card'>
+                        <div className='project-images'>
+                            <img src={placeholder} alt="Car Match Project" className='project-image'/>
+                            <img src={placeholder} alt="Car Match Interface" className='project-image'/>
+                            <img src={placeholder} alt="Car Match Mobile" className='project-image'/>
+                        </div>
+                        <div className='project-details'>
+                            <h3 className='project-title'>Car Match</h3>
+                            <p className='project-year'>2024</p>
+                            <p className='project-description'>↗ Adjust text tone by dragging a dial across a tactile axis.</p>
+                            <p className='project-launched'>Launched at Config 2024 alongside Figma Slides, the Car Match platform helps users find the perfect vehicle with confidence and peace of mind.</p>
+                        </div>
+                    </div>
+                    
+                    <div className='project-card'>
+                        <div className='project-images'>
+                            <img src={placeholder} alt="Motor Insurance Project" className='project-image'/>
+                            <img src={placeholder} alt="Vehicle Update Interface" className='project-image'/>
+                            <img src={placeholder} alt="Portal Updates" className='project-image'/>
+                        </div>
+                        <div className='project-details'>
+                            <h3 className='project-title'>Vehicle Updates Portal</h3>
+                            <p className='project-year'>2024</p>
+                            <p className='project-description'>↗ Self-service vehicle management for motor insurance.</p>
+                            <p className='project-launched'>This project introduced a simple, self-service feature for users to manage their insured vehicles directly in the portal.</p>
+                        </div>
+                    </div>
                 </div>
-                <section className='project-section'>
-                    <div><img src={placeholder}/><img src={placeholder}/><img src={placeholder}/></div>
-                    < br/>
-                    <div className="tags">
-                        <span className="tag">Design Strategy</span>
-                        <span className="tag">Problem Framing</span>
-                        <span className="tag">Stakeholder Alignment</span>
-                        <span className="tag">Task Flows</span>
-                        <span className="tag">Developer Handoff</span>
-                        </div>
-                    <h2>Car match</h2>
-                    <p>
-                        An all-in-one platform that simplifies the car buying process by allowing users
-                        to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company. 
-                        The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car 
-                        with confidence and peace of mind.
-                    </p>
-                </section>
-                <section className='project-section'>
-                    <div><img src={placeholder}/><img src={placeholder}/><img src={placeholder}/></div>
-                    < br/>
-                    <div className="tags">
-                        <span className="tag">Design Strategy</span>
-                        <span className="tag">Problem Framing</span>
-                        <span className="tag">Stakeholder Alignment</span>
-                        <span className="tag">Task Flows</span>
-                        <span className="tag">Developer Handoff</span>
-                        </div>
-                    <h2>Streamlining vehicle updates for Motor Insurance</h2>
-                    <p>
-                        Previously, updating a vehicle in a motor insurance policy was unclear and required support. 
-                        This project introduced a simple, self-service feature, allowing users to replace or edit their
-                         insured vehicle directly in the portal, ensuring a smoother and more efficient experience.
-                    </p>
-                </section>
-                <hr style={{ borderTop: "0px solid lightgrey" }}></hr><p style={{fontSize: "12px"}}>Designed and built by me</p>
-                <p style={{fontSize: "12px"}}>© 2025 Crystal Truong </p>
+                
+                <footer className='site-footer'>
+                    <p className='footer-text'>Designed and built by me</p>
+                    <p className='footer-text'>© 2025 Crystal Truong</p>
+                </footer>
             </div>
             </>
         )
