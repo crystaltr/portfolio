@@ -38,9 +38,9 @@ function CarMatch() {
                     style={{ borderTop: "0px solid lightgrey" }}
                 ></hr>
                         <p>
-                        The app currently lacks a way for fans to track artists they want to see live in Australia, making it difficult to stay updated on tours. 
-                        Additionally, the only notification method is email, which can easily be overlooked or lost in spam. 
-                        These pain points create a risk of fans missing out on their favorite artists, which I addressed in my discovery phase.
+                        Car buyers face challenges finding trustworthy dealers, comparing vehicles effectively, and securing insurance.
+                        The process is often fragmented across multiple platforms, leading to uncertainty and extended decision-making timeframes.
+                        This complexity creates barriers for customers who want a seamless, confident car buying experience.
                         </p>
                     </div>
                     <div className="table-column solution">
@@ -49,10 +49,9 @@ function CarMatch() {
                     style={{ borderTop: "0px solid lightgrey" }}
                 ></hr>
                         <p>
-                            The main advantage that Whatslively relies on is the <b>artist match data</b> by utilising it to its fullest
-                            we can improve the search engine experience making it easier for fans to search for gigs and artists. 
-                            To reduce FOMO I included push notifications to inform fans straight away when an artist releases tour dates
-                            in their area.
+                            The car advisory platform integrates vehicle research, dealer verification, and insurance options into one streamlined experience.
+                            By leveraging motor insurance company expertise, users gain access to vetted reviews and trusted dealer networks,
+                            enabling confident purchase decisions with comprehensive support throughout the buying journey.
                         </p>
                     </div>
                     </div>< br/><br/>
