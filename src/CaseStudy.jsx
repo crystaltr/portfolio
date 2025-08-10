@@ -1,15 +1,15 @@
 import React from 'react';
 import './project.css';
-import wl2 from './WL graphic.png'
+import wl2 from './assets/images/WL graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-import rev1 from './rev1.png'
-import rev2 from './rev2.png'
-import rev3 from './rev3.png'
-import comp from './comp.png'
-import ideation from './ideation.png'
-import wlgif from './wlgif.gif'
-import c1 from'./c1.png'
-import c2 from './c2.png'
+import rev1 from './assets/images/rev1.png'
+import rev2 from './assets/images/rev2.png'
+import rev3 from './assets/images/rev3.png'
+import comp from './assets/images/comp.png'
+import ideation from './assets/images/ideation.png'
+import wlgif from './assets/images/wlgif.gif'
+import c1 from'./assets/images/c1.png'
+import c2 from './assets/images/c2.png'
 
 
 function CaseStudy() {

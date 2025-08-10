@@ -1,7 +1,7 @@
 import React from 'react';
 import './project.css';
 import CaseStudyCards from './CaseStudyCards';
-import cm from './CM.png'
+import cm from './assets/images/CM.png'
 
 
 

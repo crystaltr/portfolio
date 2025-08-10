@@ -1,11 +1,11 @@
 import React from 'react';
 import './project.css';
-import era from './ERA graphic.png'
+import era from './assets/images/ERA graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-import erap from './erap.gif'
-import eera from './eera.png'
-import erar from './erar.png'
-import state from './stater.png'
+import erap from './assets/images/erap.gif'
+import eera from './assets/images/eera.png'
+import erar from './assets/images/erar.png'
+import state from './assets/images/stater.png'
 
 
 function ProjectOne() {

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './landingpage.css';
 import { Link } from 'react-router-dom';
-import wl from './lpwl.png';
-import era from './ERA graphic.png'
-import cm from './CM.png'
+import wl from './assets/images/lpwl.png';
+import era from './assets/images/ERA graphic.png'
+import cm from './assets/images/CM.png'
 
 
 class LandingPage extends Component {

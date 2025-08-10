@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import { Link } from 'react-router-dom';
-import placeholder from './placeholder.png'
+import placeholder from './assets/images/placeholder.png'
 
 class MainPage extends Component {
     render() {
