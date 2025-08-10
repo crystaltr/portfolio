@@ -13,6 +13,26 @@ class MainPage extends Component {
                     <h1 className='designer-name'>Crystal Truong</h1>
                     <p className='designer-title'>UX Designer @ Melbourne</p>
                 </header>
+
+                  <div className='projects-grid'>
+                    <div className='project-card'>
+                        <div className='project-images'>
+                            <img src={placeholder} alt="Car Match Project" className='project-image'/>
+                            <img src={placeholder} alt="Car Match Interface" className='project-image'/>
+                            <img src={placeholder} alt="Car Match Mobile" className='project-image'/>
+                        </div>
+                        <div className='project-details'>
+                            <div className="tags">
+                                <span className="tag">Design Strategy</span>
+                                <span className="tag">Problem Framing</span>
+                                <span className="tag">Stakeholder Alignment</span>
+                                <span className="tag">Task Flows</span>
+                                <span className="tag">Developer Handoff</span>
+                            </div>
+                            <h3 className='project-title'>Digitise Emergency roadside assist</h3>
+                            <p className='project-description'>A feature within the RACV app allowing Australians to get help through the app</p>
+                        </div>
+                    </div>
                 
                 <div className='projects-grid'>
                     <div className='project-card'>
@@ -53,6 +73,7 @@ class MainPage extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
                 
                 <footer className='site-footer'>
                     <p className='footer-text'>Designed and built by me</p>
