@@ -19,7 +19,7 @@ function CaseStudy() {
           <section className="case-study">
                 
             {/* Image Placeholder */}
-            <img src={wl2} alt="era" class='case-study-image'/>
+            <img src={wl2} alt="era" className='case-study-image'/>
             {/* Title Section */}
             <div className="case-study-title">
             Whatslively redesign 
@@ -75,12 +75,12 @@ function CaseStudy() {
                     <b>Lack of imagery</b><br/>
                     When searching or sifting through artists users can only see a wall of text and no way to differentiate
                     artists with the same or similar name. <br/><br/>
-                    <img src={rev1} alt="rev1" class="revimg" /><img src={rev2} alt="rev2" class="revimg"/><br/>
+                    <img src={rev1} alt="rev1" className="revimg" /><img src={rev2} alt="rev2" className="revimg"/><br/>
                     <b>Lack of notice on concerts</b><br/>
                     With only email users have to rely on going through their inbox or looking through the app to see 
                     if an artist they are interested in is touring in Australia. These tedious actions could be 
                     prevented by adding in push notifcations which instantly inform users from the app if an artist is touring or not. 
-                    <img src={rev3} alt="rev3" class="revimg"/><br/>
+                    <img src={rev3} alt="rev3" className="revimg"/><br/>
                     < br/><br/>
                     Based on the points customers have made, I looked into the <b>current state</b> to identify the pain points and potential solutions
                     that would work well within the current flow. <br/><br/>
@@ -117,7 +117,7 @@ function CaseStudy() {
 
                 </p>
 
-                <img src={wlgif} alt="wlgif" class="wlgif"/>
+                <img src={wlgif} alt="wlgif" className="wlgif"/>
 
                 <h3>Reflections</h3>
                 <p>

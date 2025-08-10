@@ -11,7 +11,7 @@ function CarMatch() {
             <>
              <section className="case-study">
                     
-                    <img src={cm} alt="era" class='case-study-image'/>
+                    <img src={cm} alt="era" className='case-study-image'/>
                     {/* Title Section */}
                     <div className="case-study-title">
                     Car advisory platform

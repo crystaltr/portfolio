@@ -5,8 +5,8 @@ import './navbar.css';
 const Navbar = () => {
     return (
         <>
-        <nav class="nav-grid">
-            <ul class="ul-grid"> 
+        <nav className="nav-grid">
+            <ul className="ul-grid"> 
                 <Link to="/">Home</Link>
                 <a href="https://www.linkedin.com/in/crystal-truong-2334a2175/" target="_blank">Linkedin</a>
             </ul>
