@@ -20,11 +20,10 @@ function CarMatch() {
             
                     {/* Description */}
                     <p className="case-study-description">
-                    Whatslively is a mobile app that informs you of every concert happening in your area, this is done by
-                    scanning your Apple music or Spotify. As an avid concert goer I was excited to discover an app exclusively for 
-                    Australia and so I'd never have 'FOMO' (Fear of missing out). 
-                    As this app is quite new to the market I wanted to look at ways to uplift the app and what I envision the app could
-                    become with a few UX tweaks. 
+                    An all-in-one platform that simplifies the car buying process by allowing users
+                    to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company.
+                    The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car
+                    with confidence and peace of mind.
                     </p>
             
                     {/* Improvement Section */}
