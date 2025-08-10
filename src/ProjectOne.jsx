@@ -1,5 +1,6 @@
 import React from 'react';
-import './project.css';
+import './styles/shared.css';
+import './styles/CaseStudy.css';
 import era from './assets/images/ERA graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
 import erap from './assets/images/erap.gif'

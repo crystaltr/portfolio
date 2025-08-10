@@ -1,5 +1,6 @@
 import React from 'react';
-import './project.css';
+import './styles/shared.css';
+import './styles/CaseStudy.css';
 import CaseStudyCards from './CaseStudyCards';
 import cm from './assets/images/CM.png'
 

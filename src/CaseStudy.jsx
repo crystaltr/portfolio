@@ -1,5 +1,6 @@
 import React from 'react';
-import './project.css';
+import './styles/shared.css';
+import './styles/CaseStudy.css';
 import wl2 from './assets/images/WL graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
 import rev1 from './assets/images/rev1.png'
