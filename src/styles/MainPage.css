@@ -138,11 +138,7 @@
   
   .project-images {
     grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .project-details {
-    padding-left: 0;
+    gap: 1.5rem;
   }
   
   .project-title {
