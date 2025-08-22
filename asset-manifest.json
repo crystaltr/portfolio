@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.99ec171e.css",
-    "main.js": "/portfolio/static/js/main.ffb26dec.js",
-    "static/media/erap.gif": "/portfolio/static/media/erap.e4bf275402ccade9aaa5.gif",
-    "static/media/ERAg.png": "/portfolio/static/media/ERAg.f302f496dd2ccf48b49f.png",
-    "static/media/ERA graphic.png": "/portfolio/static/media/ERA graphic.ba592b51d0282b323726.png",
-    "static/media/lpwl.png": "/portfolio/static/media/lpwl.e089b6328bc68ba72794.png",
-    "static/media/CM.png": "/portfolio/static/media/CM.94acb2948ce80647b81c.png",
-    "static/media/eera.png": "/portfolio/static/media/eera.870510598bfb7637362c.png",
-    "static/media/erar.png": "/portfolio/static/media/erar.f6b6d5f57f343a1676fb.png",
-    "static/media/stater.png": "/portfolio/static/media/stater.a7d583988902a51047eb.png",
-    "index.html": "/portfolio/index.html",
-    "main.99ec171e.css.map": "/portfolio/static/css/main.99ec171e.css.map",
-    "main.ffb26dec.js.map": "/portfolio/static/js/main.ffb26dec.js.map"
+    "main.css": "/static/css/main.99ec171e.css",
+    "main.js": "/static/js/main.87885a67.js",
+    "static/media/erap.gif": "/static/media/erap.e4bf275402ccade9aaa5.gif",
+    "static/media/ERAg.png": "/static/media/ERAg.f302f496dd2ccf48b49f.png",
+    "static/media/ERA graphic.png": "/static/media/ERA graphic.ba592b51d0282b323726.png",
+    "static/media/lpwl.png": "/static/media/lpwl.e089b6328bc68ba72794.png",
+    "static/media/CM.png": "/static/media/CM.94acb2948ce80647b81c.png",
+    "static/media/eera.png": "/static/media/eera.870510598bfb7637362c.png",
+    "static/media/erar.png": "/static/media/erar.f6b6d5f57f343a1676fb.png",
+    "static/media/stater.png": "/static/media/stater.a7d583988902a51047eb.png",
+    "index.html": "/index.html",
+    "main.99ec171e.css.map": "/static/css/main.99ec171e.css.map",
+    "main.87885a67.js.map": "/static/js/main.87885a67.js.map"
   },
   "entrypoints": [
     "static/css/main.99ec171e.css",
-    "static/js/main.ffb26dec.js"
+    "static/js/main.87885a67.js"
   ]
 }
