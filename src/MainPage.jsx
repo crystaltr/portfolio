@@ -4,6 +4,9 @@ import placeholder from './assets/images/placeholder.png'
 import cmhp from './assets/images/CMHP.png'
 import cmw from './assets/images/CMW.gif'
 import op from './assets/images/overview panel.png'
+import dera1 from './assets/images/dera1.png'
+import dera2 from './assets/images/dera2.gif'
+import dera3 from './assets/images/dera3.png'
 
 import './styles/shared.css'
 import './styles/MainPage.css'
@@ -21,9 +24,9 @@ class MainPage extends Component {
                   <div className='projects-grid'>
                     <div className='project-card'>
                         <div className='project-images'>
-                            <img src={placeholder} alt="Car Match Project" className='project-image'/>
-                            <img src={placeholder} alt="Car Match Interface" className='project-image'/>
-                            <img src={placeholder} alt="Car Match Mobile" className='project-image'/>
+                            <img src={dera1} alt="Car Match Project" className='project-image'/>
+                            <img src={dera2} alt="Car Match Interface" className='project-image'/>
+                            <img src={dera3} alt="Car Match Mobile" className='project-image'/>
                         </div>
                         <div className='project-details'>
                             <div className="tags">
@@ -55,25 +58,6 @@ class MainPage extends Component {
                             </div>
                             <h3 className='project-title'>Car Match</h3>
                             <p className='project-description'>An all-in-one platform that simplifies the car buying process by allowing users to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company. The platform also offers car insurance options, making it a convenient one-stop shop for purchasing a car with confidence and peace of mind.</p>
-                        </div>
-                    </div>
-                    
-                    <div className='project-card'>
-                        <div className='project-images'>
-                            <img src={placeholder} alt="Motor Insurance Project" className='project-image'/>
-                            <img src={placeholder} alt="Vehicle Update Interface" className='project-image'/>
-                            <img src={placeholder} alt="Portal Updates" className='project-image'/>
-                        </div>
-                        <div className='project-details'>
-                            <div className="tags">
-                                <span className="tag">Design Strategy</span>
-                                <span className="tag">Problem Framing</span>
-                                <span className="tag">Stakeholder Alignment</span>
-                                <span className="tag">Task Flows</span>
-                                <span className="tag">Developer Handoff</span>
-                            </div>
-                            <h3 className='project-title'>Streamlining vehicle updates for Motor Insurance</h3>
-                            <p className='project-description'>Previously, updating a vehicle in a motor insurance policy was unclear and required support. This project introduced a simple, self-service feature, allowing users to replace or edit their insured vehicle directly in the portal, ensuring a smoother and more efficient experience.</p>
                         </div>
                     </div>
                 </div>

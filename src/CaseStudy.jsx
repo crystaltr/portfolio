@@ -3,14 +3,7 @@ import './styles/shared.css';
 import './styles/CaseStudy.css';
 import wl2 from './assets/images/WL graphic.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-import rev1 from './assets/images/rev1.png'
-import rev2 from './assets/images/rev2.png'
-import rev3 from './assets/images/rev3.png'
-import comp from './assets/images/comp.png'
-import ideation from './assets/images/ideation.png'
-import wlgif from './assets/images/wlgif.gif'
-import c1 from'./assets/images/c1.png'
-import c2 from './assets/images/c2.png'
+
 
 
 function CaseStudy() {

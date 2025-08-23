@@ -2,22 +2,22 @@ import React from "react";
 import { Link } from "react-router-dom"; // Import Link
 import "./styles/shared.css";
 import "./styles/CaseStudyCards.css";
-import wl from "./assets/images/lpwl.png";
-import era2 from "./assets/images/ERAg.png";
+import placeholder from './assets/images/placeholder.png'
+
 
 const caseStudies = [
   {
     title: "Streamlining vehicle updates for Motor Insurance",
     description:
       "Previously, updating a vehicle in a motor insurance policy was unclear and required support. This project introduced a simple, self-service feature, allowing users to replace or edit their insured vehicle directly in the portal, ensuring a smoother and more efficient experience.",
-    image: era2,
+    image: placeholder,
     link: "/amendmotor", // No need for `/#/`
   },
   {
     title: "Whatslively",
     description:
       "Enhancing the Whatslively experience by introducing two key features to improve usability and event discovery. This case study focuses on identifying gaps in the current app and designing solutions that better support users in finding and managing live events.",
-    image: wl,
+    image: placeholder,
     link: "/whatslively",
   },
 ];

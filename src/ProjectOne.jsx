@@ -1,12 +1,9 @@
 import React from 'react';
 import './styles/shared.css';
 import './styles/CaseStudy.css';
-import era from './assets/images/ERA graphic.png'
+import placeholder from './assets/images/placeholder.png'
 import CaseStudyCards from "./CaseStudyCards"; // Import the cards component
-import erap from './assets/images/erap.gif'
-import eera from './assets/images/eera.png'
-import erar from './assets/images/erar.png'
-import state from './assets/images/stater.png'
+
 
 
 function ProjectOne() {
@@ -16,7 +13,7 @@ function ProjectOne() {
             <section className="case-study">
                 
             {/* Image Placeholder */}
-            <img src={era} alt="era" className='case-study-image'/>
+            <img src={placeholder} alt="era" className='case-study-image'/>
             {/* Title Section */}
             <div className="case-study-title">
             Streamlining vehicle updates for Motor Insurance
@@ -74,7 +71,7 @@ function ProjectOne() {
                 </p>
 
                 <h3>High fidelity designs</h3>
-                <img src={erap} alt="erap" />
+                <img src={placeholder} alt="erap" />
                 <p>
                     Based on the requirements given and the competitor analysis I was able to start on designing how a customer could edit their vehicle to change to colour or registration and entirely update
                     their vehicle which resulted in a new policy. <br/>
@@ -104,13 +101,13 @@ function ProjectOne() {
                     Confluence page. Then I would have three breakpoints: Desktop, tablet and mobile views, each breakpoint showing the flow in which a customer would edit or replace 
                     their vehicle. <br/><br/>
 
-                    <img src={eera} alt="eera" style={{width: "100%"}}/><br/><br/>
-                    <img src={erar} alt="erar" style={{width: "100%"}}/><br/><br/>
+                    <img src={placeholder} alt="eera" style={{width: "100%"}}/><br/><br/>
+                    <img src={placeholder} alt="erar" style={{width: "100%"}}/><br/><br/>
 
                     In some cases I would set up a "State" section, this would include any error states, edge cases or specific requirements we would need to catch that is
                     not included in the existing design system documentation. <br/><br/>
 
-                    <img src={state} alt="stater" style={{width: "100%"}}/> <br/><br/>
+                    <img src={placeholder} alt="stater" style={{width: "100%"}}/> <br/><br/>
 
                     After the handover documentation is complete I set up a meeting with the dev and testers to walkthrough the flow to catch any further questions or edge cases
                     that we may have missed in previous meetings. Once this walkthrough is done a santity check is done with the devs to ensure the designs translated accurately 
