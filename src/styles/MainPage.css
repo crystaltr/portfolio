@@ -1,9 +1,9 @@
-/* MainPage Natasha-inspired styles */
 .main-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 3rem 2rem;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 /* Header Section */
@@ -43,17 +43,15 @@
 .project-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  width: 100%;
+  gap: 3rem;
+  width: 105%;
 }
 
 .project-image {
-  width: 100%;
+  width: 105%;
   height: auto;
-  aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: 12px;
-  border: 1px solid #eee;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

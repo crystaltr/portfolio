@@ -1,6 +1,10 @@
 import React, { Component }  from 'react';
 import { Link } from 'react-router-dom';
 import placeholder from './assets/images/placeholder.png'
+import cmhp from './assets/images/CMHP.png'
+import cmw from './assets/images/CMW.gif'
+import op from './assets/images/overview panel.png'
+
 import './styles/shared.css'
 import './styles/MainPage.css'
 
@@ -11,7 +15,7 @@ class MainPage extends Component {
             <div className='main-container'>
                 <header className='site-header'>
                     <h1 className='designer-name'>Crystal Truong</h1>
-                    <p className='designer-title'>UX Designer @ Melbourne</p>
+                    <p className='designer-title'>UX Designer @ RACV</p>
                 </header>
 
                   <div className='projects-grid'>
@@ -37,9 +41,9 @@ class MainPage extends Component {
                 <div className='projects-grid'>
                     <div className='project-card'>
                         <div className='project-images'>
-                            <img src={placeholder} alt="Car Match Project" className='project-image'/>
-                            <img src={placeholder} alt="Car Match Interface" className='project-image'/>
-                            <img src={placeholder} alt="Car Match Mobile" className='project-image'/>
+                            <img src={cmhp} alt="Car Match Project" className='project-image'/>
+                            <img src={cmw} alt="Car Match Interface" className='project-image'/>
+                            <img src={op} alt="Car Match Mobile" className='project-image'/>
                         </div>
                         <div className='project-details'>
                             <div className="tags">
