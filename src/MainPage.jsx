@@ -7,6 +7,8 @@ import op from './assets/images/overview panel.png'
 import dera1 from './assets/images/dera1.png'
 import dera2 from './assets/images/dera2.gif'
 import dera3 from './assets/images/dera3.png'
+import mp from './assets/images/mp.png'
+import doc from './assets/images/doc.png'
 
 import './styles/shared.css'
 import './styles/MainPage.css'
@@ -69,9 +71,8 @@ class MainPage extends Component {
                 <div className='projects-grid'>
                     <div className='project-card'>
                         <div className='project-images'>
-                            <img src={placeholder} className='project-image'/>
-                            <img src={placeholder} alt="Car Match Interface" className='project-image'/>
-                            <img src={placeholder} className='project-image'/>
+                            <img src={mp} className='project-image'/>
+                            <img src={doc} className='project-image'/>
                         </div>
                         <div className='project-details'>
                             <div className="tags">
