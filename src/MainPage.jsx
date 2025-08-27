@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 import { Link } from 'react-router-dom';
 import placeholder from './assets/images/placeholder.png'
+import WinampPlayer from './WinampPlayer';
 import cmhp from './assets/images/CMHP.png'
 import cmw from './assets/images/CMW.gif'
 import op from './assets/images/overview panel.png'
@@ -21,6 +22,7 @@ class MainPage extends Component {
                 <header className='site-header'>
                     <h1 className='designer-name'>Crystal Truong</h1>
                     <p className='designer-title'>UX Designer @ RACV</p>
+                <WinampPlayer/>
                 </header>
 
                   <div className='projects-grid'>
