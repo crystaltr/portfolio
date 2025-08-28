@@ -1,15 +1,27 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './styles/WinampPlayer.css';
 
-// Maya's approach: Use music/ folder with direct file references
-// Put your MP3 files in public/music/ (Maya's folder structure)
-
-const musicFiles = [
-    // Maya's exact approach - put your file here:
-    "audio/Last Train At 25 O'clock.mp3",  // Your file should be at public/music/track1.mp3
-    // You can add more files like Maya does:
-    // 'music/track2.mp3',
-    // 'music/track3.mp3'
+// 🎵 SCALABLE TRACK SYSTEM - Just add tracks here and they appear automatically!
+const tracks = [
+    {
+        filename: "Last Train At 25 O'clock.mp3",
+        title: '3. Last Train At 25 O\'clock',
+        artist: 'Crystal Truong',
+        album: 'Portfolio Collection'
+    },
+    {
+        filename: 'Sweetbitter.mp3',
+        title: 'Your Second Song Title',
+        artist: 'Crystal Truong',
+        album: 'Portfolio Collection'
+    },
+    // ✨ ADD MORE TRACKS HERE - just copy the pattern above!
+    // {
+    //     filename: 'track3.mp3',
+    //     title: 'Your Third Song',
+    //     artist: 'Artist Name',
+    //     album: 'Album Name'
+    // },
 ];
 
 const WinampPlayer = () => {
@@ -21,25 +33,19 @@ const WinampPlayer = () => {
     const [playlist, setPlaylist] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
-    // Maya's approach: Simple playlist with direct file paths
+    // 🔄 AUTO-GENERATE playlist from tracks array using loop!
     useEffect(() => {
-        const staticPlaylist = [
-            {
-                title: "3. Last Train At 25 O'clock",
-                artist: "Crystal Truong",
-                album: "Portfolio Collection",
-                src: musicFiles[0], 
-                fileName: "track1.mp3"
-            }
-            // Once test works, replace with:
-            // {
-            //     title: "3. Last Train At 25 O'clock",
-            //     artist: "Crystal Truong",
-            //     src: track1, // your imported file
-            // }
-        ];
+        const autoPlaylist = tracks.map((track, index) => ({
+            title: track.title,
+            artist: track.artist,
+            album: track.album,
+            src: `audio/${track.filename}`,  // Auto-generate path
+            fileName: track.filename
+        }));
 
-        setPlaylist(staticPlaylist);
+        console.log(`🎵 Auto-loaded ${autoPlaylist.length} tracks:`, autoPlaylist);
+
+        setPlaylist(autoPlaylist);
         setIsLoading(false);
     }, []);
 
@@ -62,6 +68,39 @@ const WinampPlayer = () => {
         };
 
         const setAudioTime = () => setCurrentTime(audio.currentTime);
+
+        if (audio) {
+            // Success events
+            audio.addEventListener('loadeddata', setAudioData);
+            audio.addEventListener('timeupdate', setAudioTime);
+            audio.addEventListener('ended', nextTrack);
+            audio.addEventListener('canplay', () => {
+                console.log('✅ Audio can play:', currentTrack.src);
+            });
+            audio.addEventListener('loadedmetadata', () => {
+                console.log('✅ Audio metadata loaded, duration:', audio.duration);
+            });
+
+            // Error events
+            audio.addEventListener('error', (e) => {
+                console.error('❌ Audio element error:', e);
+                console.error('Audio error code:', audio.error?.code);
+                console.error('Audio error message:', audio.error?.message);
+                console.error('Audio src:', audio.currentSrc);
+                console.error('Audio readyState:', audio.readyState);
+                console.error('Audio networkState:', audio.networkState);
+
+                // Show user-friendly error
+                const errorMsg = audio.error?.code === 4 ?
+                    'Audio file not supported or not found' :
+                    `Audio error: ${audio.error?.message}`;
+                console.log('Try this URL directly:', currentTrack.src);
+            });
+
+            audio.addEventListener('stalled', () => {
+                console.warn('⚠️ Audio loading stalled');
+            });
+        }
 
         return () => {
             if (audio) {
@@ -93,15 +132,43 @@ const WinampPlayer = () => {
 
     const nextTrack = () => {
         if (playlist.length > 1) {
+            const wasPlaying = isPlaying; // Remember if music was playing
             setCurrentTrackIndex((prev) => (prev + 1) % playlist.length);
-            setIsPlaying(false);
+
+            // If music was playing, keep playing and auto-start the next track
+            if (wasPlaying) {
+                // Keep the playing state true
+                setIsPlaying(true);
+                // Small delay to let audio element load new track
+                setTimeout(() => {
+                    const audio = audioRef.current;
+                    if (audio) {
+                        audio.play().catch(e => console.log('Auto-play next track failed:', e));
+                    }
+                }, 100);
+            }
+            // Don't change isPlaying if it was false - it stays false
         }
     };
 
     const prevTrack = () => {
         if (playlist.length > 1) {
+            const wasPlaying = isPlaying; // Remember if music was playing
             setCurrentTrackIndex((prev) => (prev - 1 + playlist.length) % playlist.length);
-            setIsPlaying(false);
+
+            // If music was playing, keep playing and auto-start the previous track
+            if (wasPlaying) {
+                // Keep the playing state true
+                setIsPlaying(true);
+                // Small delay to let audio element load new track
+                setTimeout(() => {
+                    const audio = audioRef.current;
+                    if (audio) {
+                        audio.play().catch(e => console.log('Auto-play prev track failed:', e));
+                    }
+                }, 100);
+            }
+            // Don't change isPlaying if it was false - it stays false
         }
     };
 
@@ -142,58 +209,87 @@ const WinampPlayer = () => {
     }
 
     return (
-        <div className={`modern-player ${isPlaying ? 'playing' : ''}`}>
+        <div className={`playlist-player ${isPlaying ? 'playing' : ''}`}>
+            {/* Hidden audio element */}
             <audio
                 ref={audioRef}
                 src={currentTrack.src}
                 onLoadStart={() => setIsPlaying(false)}
+                onError={(e) => console.error('Audio error:', e)}
+                onCanPlay={() => console.log('✅ Audio loaded:', currentTrack.src)}
                 preload="metadata"
             />
-            
-            <div className="album-artwork">
-                <div className="artwork-circle">
-                    <div className="visualizer-modern">
+
+            {/* Main player container matching your design */}
+            <div className="player-container">
+                {/* Left side: Album artwork area */}
+                <div className="album-section">
+                    <div className="album-artwork-box">
+                        {/* Pink album art area - matches your design */}
+                    </div>
+                </div>
+
+                {/* Right side: Playlist area */}
+                <div className="playlist-section">
+                    <div className="playlist-container">
+                        {playlist.map((track, index) => (
+                            <div
+                                key={index}
+                                className={`playlist-track ${index === currentTrackIndex ? 'active' : ''}`}
+                                onClick={() => {
+                                    setCurrentTrackIndex(index);
+                                    if (isPlaying) {
+                                        setTimeout(() => {
+                                            const audio = audioRef.current;
+                                            if (audio) audio.play().catch(e => console.log('Track selection play failed:', e));
+                                        }, 100);
+                                    }
+                                }}
+                            >
+                                <span className="track-number">{index + 1}.</span>
+                                <span className="track-info">
+                                    {track.artist} - {track.title}
+                                </span>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
-            
-            <div className="player-info">
-                <div className="song-details">
-                    <div className="song-title-modern">{currentTrack.title}</div>
-                    <div className="artist-name">{currentTrack.artist}</div>
-                </div>
-                
-                <div className="progress-section">
-                    <div className="progress-bar" onClick={handleProgressClick}>
-                        <div 
-                            className="progress-fill" 
-                            style={{width: `${duration ? (currentTime / duration) * 100 : 0}%`}}
-                        ></div>
-                    </div>
-                    <div className="time-display">
-                        {formatTime(currentTime)} / {formatTime(duration)}
-                    </div>
-                </div>
-                
-                <div className="player-controls">
-                    <button 
-                        className="control-btn-modern prev" 
-                        onClick={prevTrack}
-                        disabled={playlist.length <= 1 || !currentTrack.src}
-                    >⏮</button>
-                    <button 
-                        className="control-btn-modern play-modern" 
-                        onClick={togglePlay}
-                        disabled={!currentTrack.src}
-                    >
-                        {isPlaying ? '⏸' : '▶'}
-                    </button>
-                    <button 
-                        className="control-btn-modern next" 
-                        onClick={nextTrack}
-                        disabled={playlist.length <= 1 || !currentTrack.src}
-                    >⏭</button>
-                </div>
+
+            {/* Bottom controls row */}
+ <div className="bottom-controls">
+                <button
+                    className="control-btn prev-btn"
+                    onClick={prevTrack}
+                    disabled={playlist.length <= 1 || !currentTrack.src}
+                >⏮</button>
+                <button
+                    className={`control-btn play-pause-btn ${isPlaying ? 'playing' : 'paused'}`}
+                    onClick={togglePlay}
+                    disabled={!currentTrack.src}
+                >
+                    {isPlaying ? '⏸' : '▶'}
+                </button>
+                <button
+                    className="control-btn stop-btn"
+                    onClick={() => {
+                        const audio = audioRef.current;
+                        if (audio) {
+                            audio.pause();
+                            audio.currentTime = 0;
+                            setIsPlaying(false);
+                            setCurrentTime(0);
+                        }
+                    }}
+                    disabled={!currentTrack.src}
+                >
+                    ⏹
+                </button>
+                <button
+                    className="control-btn next-btn"
+                    onClick={nextTrack}
+                    disabled={playlist.length <= 1 || !currentTrack.src}
+                >⏭</button>
             </div>
         </div>
     );

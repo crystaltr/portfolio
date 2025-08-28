@@ -20,8 +20,10 @@ class MainPage extends Component {
             <>
             <div className='main-container'>
                 <header className='site-header'>
-                    <h1 className='designer-name'>Crystal Truong</h1>
-                    <p className='designer-title'>UX Designer @ RACV</p>
+                    <div className='header-info'>
+                        <h1 className='designer-name'>Crystal Truong</h1>
+                        <p className='designer-title'>UX Designer @ Melbourne</p>
+                    </div>
                 <WinampPlayer/>
                 </header>
 
