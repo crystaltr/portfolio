@@ -1,10 +1,9 @@
 /* MainPage Natasha-inspired styles */
 .main-container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 3rem 2rem;
   min-height: 100vh;
-  width: 100%;
   box-sizing: border-box;
 }
 
@@ -41,7 +40,6 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
-  margin-bottom: 6rem;
 }
 
 .project-card {
@@ -53,36 +51,22 @@
 .project-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
+  gap: 3rem;
+  width: 105%;
 }
 
 .project-image {
-  width: 100%;
-  height: 280px;
+  width: 105%;
+  height: auto;
   object-fit: cover;
   border-radius: 12px;
-  border: 1px solid #eee;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #f8f9fa;
 }
 
 /* Keep GIF with contain to prevent cropping */
-.project-image[src*="20285e39d6814cfb966cfa0bc0d66624"] {
-  object-fit: contain;
-}
-
-.project-image:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
-}
-
 .project-details {
   padding-left: 0;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .project-details .tags {
@@ -90,25 +74,28 @@
 }
 
 .project-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #1a1a1a;
-  margin: 0 0 0.5rem 0;
-  line-height: 1.3;
+  font-size: var(--font-size-xl);
 }
 
-.project-year {
-  font-size: 0.9rem;
-  color: #666;
-  margin: 0 0 1rem 0;
+.project-title a{
+  font-weight: 600;
+  color: #DA627D;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: color 200ms ease;
+  font-size: var(--font-size-xl);
+}
+
+.project-title a:hover {
+    color: var(--accent-color);
 }
 
 .project-description {
-  font-size: 1rem;
+  font-size: 20px;
   color: #1a1a1a;
   margin: 0 0 1rem 0;
   line-height: 1.5;
-  font-weight: 500;
 }
 
 .project-launched {
