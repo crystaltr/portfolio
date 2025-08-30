@@ -22,7 +22,7 @@ class MainPage extends Component {
                 <header className='site-header'>
                     <div className='header-info'>
                         <h1 className='designer-name'>Crystal Truong</h1>
-                        <p className='designer-title'>UX Designer @ Melbourne</p>
+                        <p className='designer-title'>UX Designer @ RACV</p>
                     </div>
                 <WinampPlayer/>
                 </header>

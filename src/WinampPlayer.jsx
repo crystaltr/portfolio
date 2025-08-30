@@ -1,27 +1,59 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './styles/WinampPlayer.css';
 
-// 🎵 SCALABLE TRACK SYSTEM - Just add tracks here and they appear automatically!
 const tracks = [
+
     {
+        filename: 'My Jinji.mp3',
+        title: 'My Jinji',
+        artist: '落日飛車 Sunset Rollercoaster',
+    },
+        {
+        filename: 'Instant Crush.mp3',
+        title: 'Instant Crush',
+        artist: 'Daft Punk',
+    },
+        {
         filename: "Last Train At 25 O'clock.mp3",
-        title: '3. Last Train At 25 O\'clock',
-        artist: 'Crystal Truong',
-        album: 'Portfolio Collection'
+        title: 'Last Train At 25 O\'clock',
+        artist: 'Lamp',
+    },
+        {
+        filename: 'Come.mp3',
+        title: 'Come',
+        artist: 'Namie Amuro',
+    },
+        {
+        filename: 'Buzzcut Season.mp3',
+        title: 'Buzzcut Season',
+        artist: 'Lorde',
     },
     {
-        filename: 'Sweetbitter.mp3',
-        title: 'Your Second Song Title',
-        artist: 'Crystal Truong',
-        album: 'Portfolio Collection'
+        filename: 'いきのこり●ぼくら.mp3',
+        title: 'いきのこり●ぼくら',
+        artist: 'Ichiko Aoba',
     },
-    // ✨ ADD MORE TRACKS HERE - just copy the pattern above!
-    // {
-    //     filename: 'track3.mp3',
-    //     title: 'Your Third Song',
-    //     artist: 'Artist Name',
-    //     album: 'Album Name'
-    // },
+    {
+        filename: '四季ノ唄.mp3',
+        title: '四季ノ唄',
+        artist: 'MINMI',
+    },
+    {
+        filename: 'SOINLOVEWITHUUUUU!!!!!.mp3',
+        title: 'SOINLOVEWITHUUUUU!!!!!',
+        artist: '9th Wonder',
+    },
+        {
+        filename: 'Hold Your Tears.mp3',
+        title: 'Hold Your Tears',
+        artist: 'Clazziquai',
+    },
+            {
+        filename: 'The Sun II.mp3',
+        title: 'The Sun II',
+        artist: 'Snakadaktal',
+    }
+
 ];
 
 const WinampPlayer = () => {
@@ -38,7 +70,6 @@ const WinampPlayer = () => {
         const autoPlaylist = tracks.map((track, index) => ({
             title: track.title,
             artist: track.artist,
-            album: track.album,
             src: `audio/${track.filename}`,  // Auto-generate path
             fileName: track.filename
         }));
@@ -52,7 +83,6 @@ const WinampPlayer = () => {
     const currentTrack = playlist[currentTrackIndex] || {
         title: "Loading...",
         artist: "Please wait",
-        album: "",
         src: "",
         duration: 0
     };
@@ -193,11 +223,6 @@ const WinampPlayer = () => {
     if (isLoading) {
         return (
             <div className="modern-player loading">
-                <div className="album-artwork">
-                    <div className="artwork-circle">
-                        <div className="loading-spinner">♪</div>
-                    </div>
-                </div>
                 <div className="player-info">
                     <div className="song-details">
                         <div className="song-title-modern">Scanning for music...</div>
@@ -238,12 +263,14 @@ const WinampPlayer = () => {
                                 className={`playlist-track ${index === currentTrackIndex ? 'active' : ''}`}
                                 onClick={() => {
                                     setCurrentTrackIndex(index);
-                                    if (isPlaying) {
-                                        setTimeout(() => {
-                                            const audio = audioRef.current;
-                                            if (audio) audio.play().catch(e => console.log('Track selection play failed:', e));
-                                        }, 100);
-                                    }
+                                    // Always start playing the selected track
+                                    setTimeout(() => {
+                                        const audio = audioRef.current;
+                                        if (audio) {
+                                            audio.play().then(() => setIsPlaying(true))
+                                                .catch(e => console.log('Track selection play failed:', e));
+                                        }
+                                    }, 100);
                                 }}
                             >
                                 <span className="track-number">{index + 1}.</span>

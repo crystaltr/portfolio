@@ -198,11 +198,6 @@
 }
 
 /* Pink gradient playing animation */
-.playlist-player.playing .album-artwork-box {
-  background: linear-gradient(45deg, #f4c2c2 25%, #e8b4cb 25%, #e8b4cb 50%, #f4c2c2 50%, #f4c2c2 75%, #e8b4cb 75%);
-  background-size: 8px 8px;
-  animation: scroll-bg 1s linear infinite;
-}
 
 @keyframes scroll-bg {
   0% { background-position: 0 0; }
