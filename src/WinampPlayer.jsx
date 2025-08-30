@@ -162,43 +162,29 @@ const WinampPlayer = () => {
 
     const nextTrack = () => {
         if (playlist.length > 1) {
-            const wasPlaying = isPlaying; // Remember if music was playing
             setCurrentTrackIndex((prev) => (prev + 1) % playlist.length);
-
-            // If music was playing, keep playing and auto-start the next track
-            if (wasPlaying) {
-                // Keep the playing state true
-                setIsPlaying(true);
-                // Small delay to let audio element load new track
-                setTimeout(() => {
-                    const audio = audioRef.current;
-                    if (audio) {
-                        audio.play().catch(e => console.log('Auto-play next track failed:', e));
-                    }
-                }, 100);
-            }
-            // Don't change isPlaying if it was false - it stays false
+            // Always start playing the next track
+            setIsPlaying(true);
+            setTimeout(() => {
+                const audio = audioRef.current;
+                if (audio) {
+                    audio.play().catch(e => console.log('Auto-play next track failed:', e));
+                }
+            }, 100);
         }
     };
 
     const prevTrack = () => {
         if (playlist.length > 1) {
-            const wasPlaying = isPlaying; // Remember if music was playing
             setCurrentTrackIndex((prev) => (prev - 1 + playlist.length) % playlist.length);
-
-            // If music was playing, keep playing and auto-start the previous track
-            if (wasPlaying) {
-                // Keep the playing state true
-                setIsPlaying(true);
-                // Small delay to let audio element load new track
-                setTimeout(() => {
-                    const audio = audioRef.current;
-                    if (audio) {
-                        audio.play().catch(e => console.log('Auto-play prev track failed:', e));
-                    }
-                }, 100);
-            }
-            // Don't change isPlaying if it was false - it stays false
+            // Always start playing the previous track
+            setIsPlaying(true);
+            setTimeout(() => {
+                const audio = audioRef.current;
+                if (audio) {
+                    audio.play().catch(e => console.log('Auto-play prev track failed:', e));
+                }
+            }, 100);
         }
     };
 
@@ -239,7 +225,6 @@ const WinampPlayer = () => {
             <audio
                 ref={audioRef}
                 src={currentTrack.src}
-                onLoadStart={() => setIsPlaying(false)}
                 onError={(e) => console.error('Audio error:', e)}
                 onCanPlay={() => console.log('✅ Audio loaded:', currentTrack.src)}
                 preload="metadata"

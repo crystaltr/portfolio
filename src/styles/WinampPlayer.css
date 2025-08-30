@@ -14,12 +14,12 @@
 
 /* Pink gradient title bar from your palette */
 .playlist-player::before {
-  content: "Crystal's Music Player";
+  content: "What I'm currently listening to...";
   display: block;
   background: linear-gradient(to bottom, #c498b3 0%, #a67c95 100%); /* Darker pink gradient from your palette */
   color: white;
   padding: 2px 6px;
-  font-size: 12px;
+  font-size: 14px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
   margin: 0;
 }
@@ -106,13 +106,6 @@
   font-size: 11px;
 }
 
-.track-duration {
-  color: inherit;
-  font-size: 11px;
-  font-variant-numeric: tabular-nums;
-  margin-left: 6px;
-}
-
 /* Pink gradient Winamp button styling */
 .bottom-controls {
   display: flex;
@@ -140,7 +133,7 @@
 }
 
 .control-btn:hover:not(:disabled) {
-  background: #f0c4d8; /* Lighter pink on hover */
+  background: #f8e8f0; /* Lighter pink on hover */
 }
 
 .control-btn:active:not(:disabled) {
@@ -175,11 +168,10 @@
 
 .playlist-container::-webkit-scrollbar-track {
   background: #e8b4cb; /* Pink base from gradient */
-  border: 1px inset #e8b4cb;
 }
 
 .playlist-container::-webkit-scrollbar-thumb {
-  background: #e8b4cb; /* Pink base from gradient */
+  background: #a67c95; /* Pink base from gradient */
   border: 1px outset #e8b4cb;
 }
 
@@ -188,7 +180,7 @@
 }
 
 .playlist-container::-webkit-scrollbar-button {
-  background: #e8b4cb; /* Pink base from gradient */
+  background: #a67c95; /* Pink base from gradient */
   border: 1px outset #e8b4cb;
   height: 16px;
 }
@@ -229,16 +221,16 @@
 
 @media (max-width: 480px) {
   .playlist-player {
-    max-width: 320px;
+    max-width: 360px;
   }
   
   .album-artwork-box {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
   
   .playlist-container {
-    height: 60px;
+    height: 80px;
   }
   
   .track-info {
