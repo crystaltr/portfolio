@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './styles/WinampPlayer.css';
+import aaa from './assets/images/AAA.png'
 
 const tracks = [
 
@@ -234,9 +235,7 @@ const WinampPlayer = () => {
             <div className="player-container">
                 {/* Left side: Album artwork area */}
                 <div className="album-section">
-                    <div className="album-artwork-box">
-                        {/* Pink album art area - matches your design */}
-                    </div>
+                    <img src={aaa} className="album-artwork-box" />
                 </div>
 
                 {/* Right side: Playlist area */}
