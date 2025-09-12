@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
@@ -7,7 +6,7 @@ const Navbar = () => {
         <>
         <nav className="nav-grid">
             <ul className="ul-grid"> 
-                <Link to="/">Home</Link>
+                <a href={`${process.env.PUBLIC_URL}/CrystalT_Resume.pdf`} target="_blank">Resume</a>
                 <a href="https://www.linkedin.com/in/crystal-truong-2334a2175/" target="_blank">Linkedin</a>
             </ul>
         </nav>
