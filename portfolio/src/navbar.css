@@ -1,0 +1,25 @@
+.nav-grid {
+    display: grid;
+    gap: var(--spacing-medium);
+    grid-template-columns: 1fr;
+    color: var(--primary-color);
+    font-size: var(--font-size-medium);
+    padding-right: var(--spacing-medium);
+}
+
+.ul-grid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul a {
+    color: #DA627D;
+    padding: var(--spacing-medium);
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+
+ul a:hover {
+    color: var(--accent-color);
+}

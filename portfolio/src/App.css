@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  gap: var(--spacing-large);
+  grid-template-columns: 1fr;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--primary-color);
+}
+
+/* Ensure body doesn't have horizontal overflow */
+body {
+  overflow-x: hidden;
+}
