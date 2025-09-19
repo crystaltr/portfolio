@@ -1,10 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import MainPage from './MainPage';
 import Navbar from './NavBar';
-import ProjectOne from './ProjectOne';
 import ScrollToTop from './ScrolltoTop';
 import './App.css';
-import CarMatch from './CarMatch';
 
 function App() {
   return (
@@ -14,8 +12,6 @@ function App() {
       <ScrollToTop>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/amendmotor" element={<ProjectOne />} />
-        <Route path="/caradvisory" element={<CarMatch />} />
       </Routes>
       </ScrollToTop>
     </div>
