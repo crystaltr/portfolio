@@ -27,7 +27,26 @@ class MainPage extends Component {
                 <WinampPlayer/>
                 </header>
 
-                  <div className='projects-grid'>
+                <div className='projects-grid'>
+                      <div className='project-card'>
+                        <div className='project-images'>
+                            <img src={placeholder} className='project-image'/>
+                            <img src={dera2} className='project-image'/>
+                        </div>
+                        <div className='project-details'>
+                            <div className="tags">
+                                <span className="tag">Gamification Design</span>
+                                <span className="tag">Product Innovation </span>
+                                <span className="tag">Vibe Coding</span>
+                                <span className="tag">Learning Experience Design</span>
+                            </div>
+                            <h3 className='project-title'>Wordsprint: Learning languages through word games</h3>
+                            <p className='project-description'>Inspired by watching my nieces learning french through word games like hangman, wordsearch and many others 
+                                I tried out "vibe coding" and a mix of figma make to create a mobile app that helps people learn vocabulary by inputting
+                                a stack of words which then get turned into mini word games. 
+                            </p>
+                        </div>
+                    </div>
                     <div className='project-card'>
                         <div className='project-images'>
                             <img src={dera1} className='project-image'/>
@@ -50,7 +69,6 @@ class MainPage extends Component {
                         </div>
                     </div>
                 
-                <div className='projects-grid'>
                     <div className='project-card'>
                         <div className='project-images'>
                             <img src={cmhp} className='project-image'/>
@@ -70,9 +88,7 @@ class MainPage extends Component {
                                 with members in another part of their car journey and assist them in the car market, by providing accurate, trustworthy car information and car reviews by experts and RACV members.</p>
                         </div>
                     </div>
-                </div>
 
-                <div className='projects-grid'>
                     <div className='project-card'>
                         <div className='project-images'>
                             <img src={mp} className='project-image'/>
@@ -95,7 +111,6 @@ class MainPage extends Component {
                             </p>
                         </div>
                     </div>
-                </div>
             </div>
                 
                 <footer className='site-footer'>
