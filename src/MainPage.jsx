@@ -2,6 +2,7 @@ import React, { Component }  from 'react';
 import { Link } from 'react-router-dom';
 import placeholder from './assets/images/placeholder.png'
 import WinampPlayer from './WinampPlayer';
+import UnderConstruct from './UnderConstruct';
 import cmhp from './assets/images/CMHP.png'
 import cmw from './assets/images/CMW.gif'
 import op from './assets/images/overview panel.png'
@@ -26,14 +27,14 @@ class MainPage extends Component {
                     </div>
                 <WinampPlayer/>
                 </header>
-
+                
                 <div className='projects-grid'>
                       <div className='project-card'>
-                        <div className='project-images'>
-                            <img src={placeholder} className='project-image'/>
-                            <img src={dera2} className='project-image'/>
+                        <div className='placeholder-container'>
+                            <UnderConstruct/><br/>
                         </div>
                         <div className='project-details'>
+
                             <div className="tags">
                                 <span className="tag">Gamification Design</span>
                                 <span className="tag">Product Innovation </span>
@@ -41,9 +42,10 @@ class MainPage extends Component {
                                 <span className="tag">Learning Experience Design</span>
                             </div>
                             <h3 className='project-title'>Wordsprint: Learning languages through word games</h3>
-                            <p className='project-description'>Inspired by watching my nieces learning french through word games like hangman, wordsearch and many others 
+                            <p className='project-description'>Inspired by watching my nieces learning french through word games like hangman, wordsearch and many others, 
                                 I tried out "vibe coding" and a mix of figma make to create a mobile app that helps people learn vocabulary by inputting
-                                a stack of words which then get turned into mini word games. 
+                                a stack of words which then get turned into mini word games. Currently working on integrating multiple languages and preloaded vocabulary data sets 
+                                in addition to user inputted words.
                             </p>
                         </div>
                     </div>
@@ -61,8 +63,8 @@ class MainPage extends Component {
                                 <span className="tag">Support Deflection</span>
                                 <span className="tag">Accessibility</span>
                             </div>
-                            <h3 className='project-title'>RACV App Emergency Roadside Assist</h3>
-                            <p className='project-description'>After a year of travelling around the world, I have continued my work with RACV. I am currently desigining a feature within the RACV app that will allow Australians 
+                            <h3 className='project-title'>RACV App Emergency Roadside Assist: Helping you on the road</h3>
+                            <p className='project-description'>After a year of travelling around the world, I have continued my work with RACV. I am currently designing a feature within the RACV app that will allow Australians 
                                 to receive assistance with a breakdown wherever they are in Victoria. This project has been super interesting trying to integrate an "uber experience" within our flow and making sure the designs 
                                 align with the standard iOS and Android patterns to create a seamless experience. We are still actively shaping the next phase of roadside assistance, solving complex problems that will deliver even greater value to members!
                             </p>
@@ -82,7 +84,7 @@ class MainPage extends Component {
                                 <span className="tag">Strategic Foresight</span>
                                 <span className="tag">Accessibility</span>
                             </div>
-                            <h3 className='project-title'><a href="https://www.racv.com.au/car-match.html" target="_blank">Car Match</a></h3>
+                            <h3 className='project-title'><a href="https://www.racv.com.au/car-match.html" target="_blank">Car Match: A helpful guide to your car purchasing journey</a></h3>
                             <p className='project-description'>Moving on from the member portal, I joined a new project to work on delivering an all-in-one platform that simplifies the car buying process by allowing users to research vehicles, connect with trusted dealers and access reviews vetted by a well-known motor insurance company. 
                                 This was an interesting project as I was able to add new components to the design system, write up component and accessibility documentation and do in-person testing with the staging site. This platform gave RACV another avenue where we could connect
                                 with members in another part of their car journey and assist them in the car market, by providing accurate, trustworthy car information and car reviews by experts and RACV members.</p>
