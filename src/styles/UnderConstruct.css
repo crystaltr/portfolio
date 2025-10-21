@@ -59,6 +59,19 @@
         75%  { content: '...'; }
         100% { content: ''; }
     }
+
+@media (max-width: 768px){
+  .pixel-cell{width:6px;height:6px}
+  .pixel-gap-4{height:3px}
+  .pixel-gap-8{height:6px}
+}
+
+@media (max-width: 480px){
+  .pixel-cell{width:5px;height:5px}
+  .pixel-gap-4{height:2px}
+  .pixel-gap-8{height:4px}
+}
+
 /* .cone-right{
     display:flex;
     justify-content:flex-end;

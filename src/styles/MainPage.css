@@ -83,7 +83,6 @@
   line-height: 1.3;
   text-decoration: none;
   transition: color 200ms ease;
-  font-size: var(--font-size-xl);
 }
 
 .project-title a:hover {
@@ -182,7 +181,7 @@
   }
   
   .project-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   .project-description,
