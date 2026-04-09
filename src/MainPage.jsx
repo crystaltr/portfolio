@@ -11,6 +11,7 @@ import dera2 from './assets/images/dera2.gif'
 import dera3 from './assets/images/dera3.png'
 import mp from './assets/images/mp.png'
 import doc from './assets/images/doc.png'
+import cm from './assets/images/cm.gif'
 
 import './styles/shared.css'
 import './styles/MainPage.css'
@@ -30,22 +31,20 @@ class MainPage extends Component {
                 
                 <div className='projects-grid'>
                       <div className='project-card'>
-                        <div className='placeholder-container'>
-                            <UnderConstruct/><br/>
+                        <div className='project-images'>
+                            <img src={cm} className='project-image'/>
                         </div>
                         <div className='project-details'>
 
                             <div className="tags">
-                                <span className="tag">Gamification Design</span>
+                                <span className="tag">Chat integration</span>
                                 <span className="tag">Product Innovation </span>
                                 <span className="tag">Vibe Coding</span>
-                                <span className="tag">Learning Experience Design</span>
                             </div>
-                            <h3 className='project-title'>Wordsprint: Learning languages through word games</h3>
-                            <p className='project-description'>Inspired by watching my nieces learning french through word games like hangman, wordsearch and many others, 
-                                I tried out "vibe coding" and a mix of figma make to create a mobile app that helps people learn vocabulary by inputting
-                                a stack of words which then get turned into mini word games. Currently working on integrating multiple languages and preloaded vocabulary data sets 
-                                in addition to user inputted words.
+                            <h3 className='project-title'>Car match chat window integration</h3>
+                            <p className='project-description'>Using Figma make I'm currently exploring how we can integrate a chat window within the car match platform.
+                                This new feature can create various leads such as entry points to insurance, finance and roadside assistance. The chat also gives us the opportunity
+                                to connect with customers if they provide us their email, allowing us to follow up and provide a personalised experience.
                             </p>
                         </div>
                     </div>
