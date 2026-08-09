@@ -42,9 +42,10 @@ class MainPage extends Component {
                                 <span className="tag">Vibe Coding</span>
                             </div>
                             <h3 className='project-title'>Car match chat window integration</h3>
-                            <p className='project-description'>Using Figma make I'm currently exploring how we can integrate a chat window within the car match platform.
-                                This new feature can create various leads such as entry points to insurance, finance and roadside assistance. The chat also gives us the opportunity
-                                to connect with customers if they provide us their email, allowing us to follow up and provide a personalised experience.
+                            <p className='project-description'>In the car research journey I identified a key gap. Users were getting fatigued navigating dense data tables. 
+                                I brought forward the concept using Figma make as a key driver to show how it could integrate into our platform. I am currently leading the design ofan LLM-powered chat interface within the Car Match platform to make vehicle research conversational and intuitive. 
+                                Beyond enhancing user experience, this initiative drives core business goals by boosting awareness of RACV’s extensive product suite. 
+                                It seamlessly surfaces contextual cross-selling opportunities (such as insurance, finance, and roadside assistance) and captures user intent to enable personalized, long-term retention.
                             </p>
                         </div>
                     </div>
