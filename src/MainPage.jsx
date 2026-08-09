@@ -41,9 +41,9 @@ class MainPage extends Component {
                                 <span className="tag">Product Innovation </span>
                                 <span className="tag">Vibe Coding</span>
                             </div>
-                            <h3 className='project-title'>Car match chat window integration</h3>
+                            <h3 className='project-title'>Car match AI chat window integration</h3>
                             <p className='project-description'>In the car research journey I identified a key gap. Users were getting fatigued navigating dense data tables. 
-                                I brought forward the concept using Figma make as a key driver to show how it could integrate into our platform. I am currently leading the design ofan LLM-powered chat interface within the Car Match platform to make vehicle research conversational and intuitive. 
+                                I brought forward the concept using Figma make as a key driver to show how it could integrate into our platform. I am currently leading the design of an LLM-powered chat interface within the Car Match platform to make car research conversational and intuitive. 
                                 Beyond enhancing user experience, this initiative drives core business goals by boosting awareness of RACV’s extensive product suite. 
                                 It seamlessly surfaces contextual cross-selling opportunities (such as insurance, finance, and roadside assistance) and captures user intent to enable personalized, long-term retention.
                             </p>
@@ -64,9 +64,8 @@ class MainPage extends Component {
                                 <span className="tag">Accessibility</span>
                             </div>
                             <h3 className='project-title'>RACV App Emergency Roadside Assist: Helping you on the road</h3>
-                            <p className='project-description'>After a year of travelling around the world, I have continued my work with RACV. I am currently designing a feature within the RACV app that will allow Australians 
-                                to receive assistance with a breakdown wherever they are in Victoria. This project has been super interesting trying to integrate an "uber experience" within our flow and making sure the designs 
-                                align with the standard iOS and Android patterns to create a seamless experience. We are still actively shaping the next phase of roadside assistance, solving complex problems that will deliver even greater value to members!
+                            <p className='project-description'>After a year of travelling around the world, I continued my work with RACV. I played a key role in redesigning RACV’s most well-known, core product relied on by over a million Victorians. 
+                                By integrating real-time patrol tracking (an "Uber-style" experience) directly into the RACV app, we made roadside assistance faster, more transparent, and accessible anywhere across Victoria.
                             </p>
                         </div>
                     </div>
