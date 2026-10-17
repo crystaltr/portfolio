@@ -29,7 +29,22 @@ class MainPage extends Component {
                 <WinampPlayer/>
                 </header>
                 
-                <div className='projects-grid'>
+                <div className='projects-grid'> <div className='project-card'>
+                        <div className='project-details'>
+
+                            <div className="tags">
+                                <span className="tag">System thinking</span>
+                                <span className="tag">UI</span>
+                                <span className="tag">Accessibility</span>
+                            </div>
+                            <h3 className='project-title'>RACV design system</h3>
+                            <p className='project-description'>Throughout my time at RACV, I have been a key contributor to the design system. 
+                               I've created new components, patterns and improved on existing components. With documentation on either Zeroheight or directly on Figma, I worked closely with 
+                               testers and devs to ensure there is clear alignment in the intention and usability of new components. Using AI I've looked at ways to improve the documentation process
+                               through Figma plugins to generate keyboard support and accessibility requirements. I am continuing to look for ways to improve the documentation process of the design system and reduce inaccuracies within the handover process.
+                            </p>
+                        </div>
+                    </div>
                       <div className='project-card'>
                         <div className='project-images'>
                             <img src={cm} className='project-image'/>
@@ -64,7 +79,8 @@ class MainPage extends Component {
                                 <span className="tag">Accessibility</span>
                             </div>
                             <h3 className='project-title'>RACV App Emergency Roadside Assist: Helping you on the road</h3>
-                            <p className='project-description'>After a year of travelling around the world, I continued my work with RACV. I played a key role in redesigning RACV’s most well-known, core product relied on by over a million Victorians. 
+                            <p className='project-description'>Designed a self-service flow within the RACV app working closely with engineering, product and business stakeholders. 
+                                This is RACV’s most well-known, core product relied on by over a million Victorians available in iOS and android. 
                                 By integrating real-time patrol tracking (an "Uber-style" experience) directly into the RACV app, we made roadside assistance faster, more transparent, and accessible anywhere across Victoria.
                             </p>
                         </div>
@@ -90,28 +106,6 @@ class MainPage extends Component {
                         </div>
                     </div>
 
-                    <div className='project-card'>
-                        <div className='project-images'>
-                            <img src={mp} className='project-image'/>
-                            <img src={doc} className='project-image'/>
-                        </div>
-                        <div className='project-details'>
-                            <div className="tags">
-                                <span className="tag">Portal Optimisation</span>
-                                <span className="tag">Support Deflection</span>
-                                <span className="tag">Digital Transformation</span>
-                                <span className="tag">Accessibility</span>
-                            </div>
-                            <h3 className='project-title'>RACV Member Portal</h3>
-                            <p className='project-description'>During my first year at RACV I was put on RACVs member portal. I had the opportunity to lead the uplift of the payment 
-                                experience, allowing members to add/delete/update payment methods. These features drove more members to log into the portal instead of having to wait in the queue 
-                                to get someone to help them handle their payments. Another uplift we did was add in more functionality for motor insurance products, this gave members more control
-                                on their insurance products. Now members can update/replace their vehicles, change their addresses and view important documents. Our goal for the member experience
-                                uplift was give <b>members control of their insurance products</b> and <b>alleviate calls to the member support team</b>. I worked closely with the stakeholders and my team to deliver a better
-                                experience.
-                            </p>
-                        </div>
-                    </div>
             </div>
                 
                 <footer className='site-footer'>
