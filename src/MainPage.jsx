@@ -12,6 +12,7 @@ import dera3 from './assets/images/dera3.png'
 import mp from './assets/images/mp.png'
 import doc from './assets/images/doc.png'
 import cm from './assets/images/cm.gif'
+import RACVDS from './assets/images/RACVDS.png'
 
 import './styles/shared.css'
 import './styles/MainPage.css'
@@ -30,8 +31,10 @@ class MainPage extends Component {
                 </header>
                 
                 <div className='projects-grid'> <div className='project-card'>
+                     <div className='project-images'>
+                            <img src={RACVDS} className='project-image'/>
+                        </div>
                         <div className='project-details'>
-
                             <div className="tags">
                                 <span className="tag">System thinking</span>
                                 <span className="tag">UI</span>
@@ -79,8 +82,8 @@ class MainPage extends Component {
                                 <span className="tag">Accessibility</span>
                             </div>
                             <h3 className='project-title'>RACV App Emergency Roadside Assist: Helping you on the road</h3>
-                            <p className='project-description'>Designed a self-service flow within the RACV app working closely with engineering, product and business stakeholders. 
-                                This is RACV’s most well-known, core product relied on by over a million Victorians available in iOS and android. 
+                            <p className='project-description'>Digitised a self service roadside assistance booking system within the RACV app, providing members another avenue to get help on the road.
+                                This is RACV’s most well-known, core product relied on by over a million Victorians, delivered in collaboration with engineering, product and business stakeholders. 
                                 By integrating real-time patrol tracking (an "Uber-style" experience) directly into the RACV app, we made roadside assistance faster, more transparent, and accessible anywhere across Victoria.
                             </p>
                         </div>
